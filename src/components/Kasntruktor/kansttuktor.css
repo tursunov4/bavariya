@@ -1,6 +1,7 @@
 .kansturuktor-section {
   padding: 100px;
-  background-color: #000;
+  background: linear-gradient(0deg, #DFD1BC 0%, #DFD1BC 100%), url("../../assets/Images/png/kanstruktorbag.png"), lightgray -607.4px -0.783px / 154% 179.413% no-repeat;
+  background-blend-mode: color, normal;
 }
 .kansturuktor-section h2 {
   color: #fff;
@@ -266,7 +267,13 @@
   margin: 0 auto;
   background-color: #323232;
 }
-@media only screen and (max-width: 1474px) {
+.swiper-button-next{
+  width: 40px !important;
+}
+.swiper-button-prev{
+  width: 40px !important;
+}
+@media only screen and (max-width: 1400px) {
   .kansturuktor__wrapper {
     flex-direction: column-reverse;
     align-items: center;
@@ -398,22 +405,22 @@
   }
   .kans-prev {
     position: absolute;
-    left: 3px;
+    left: 0;
     z-index: 3;
     top: 46%;
   }
   .kans-next {
     position: absolute;
-    right: 3px;
+    right: 0;
     z-index: 3;
     top: 46%;
   }
   .kans-prev > img {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
   }
   .kans-next > img {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
   }
 }

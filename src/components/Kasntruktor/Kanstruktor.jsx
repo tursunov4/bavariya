@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import  { useState } from "react";
+import { Navigation, Pagination,  A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./kansttuktor.css";
 import kanstrukt from "../../assets/Images/png/kanstruktor.png";
@@ -335,7 +335,7 @@ const Kanstruktor = () => {
             </div>
             <div className="kans-modal__info">
               {aboutdata[num].data.map((item, index) => (
-                <div className="kans-modal__info-text">
+                <div key={index} className="kans-modal__info-text">
                   <p>{item.title}</p>
                   <div className="info-text__wrapper">
                     {item.array.map((item, index) => (
@@ -364,6 +364,7 @@ const Kanstruktor = () => {
               className="kansturuktor__line kansturuktor__line--hover"
             >
               <svg
+                className="svg"
                 width="239"
                 height="16"
                 viewBox="0 0 239 16"
@@ -382,6 +383,7 @@ const Kanstruktor = () => {
               className="kansturuktor__line1  kansturuktor__line--hover"
             >
               <svg
+              
                 width="239"
                 height="16"
                 viewBox="0 0 239 16"
@@ -440,6 +442,7 @@ const Kanstruktor = () => {
               className="kansturuktor__line4  kansturuktor__line--hover"
             >
               <svg
+          
                 width="111"
                 height="16"
                 viewBox="0 0 111 16"
@@ -562,7 +565,7 @@ const Kanstruktor = () => {
               modules={[Navigation, Pagination, A11y]}
               centerInsufficientSlides
               navigation
-              pagination={{ clickable: true }}
+             
               onSwiper={(swiper) => console.log(swiper)}
               onSlideChange={() => console.log("slide change")}
             >

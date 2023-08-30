@@ -83,6 +83,7 @@
   position: relative;
 }
 .youtubevideo-wrapper__video > img {
+  cursor: pointer;
   position: absolute;
   top: 44%;
   left: 40%;

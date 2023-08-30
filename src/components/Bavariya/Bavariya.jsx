@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import './bavriya.css'
 import product1 from "../../assets/Images/png/product1.png"
 import product2 from '../../assets/Images/png/product2.png'
@@ -50,20 +50,13 @@ const Bavariya = () => {
             <button
               onClick={() => serWife(false)}
               className={
-                wife
-                  ? "bavariya-section__quiz-button"
-                  : "bavariya-section__quiz-avtive"
-              }
+                  "bavariya-section__quiz-button" }
             >
               Без WiFi
             </button>
             <button
               onClick={() => serWife(true)}
-              className={
-                wife
-                  ? "bavariya-section__quiz-avtive"
-                  : "bavariya-section__quiz-button"
-              }
+              className={"bavariya-section__quiz-avtive"      }
             >
               {" "}
               С WiFi
