@@ -84,6 +84,7 @@ height: 458px;
   width: 20%;
 }
 .mange__tablebtn{
+  margin: 0 auto;
   display: block; 
   width: 298px;
  outline: none;
@@ -125,6 +126,12 @@ font-size: 22px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+.mange__wrapper-text td:nth-child(2){
+  text-align: center;
+}
+.mange__wrapper-text td:nth-child(3){
+  text-align: center;
 }
 
 .mange__wrapper-text th h4{
@@ -191,6 +198,7 @@ font-weight: 700;
 line-height: normal;
 }
 .mange-zakaz__btn2{
+
   border: none;
   outline: none;
   border-radius: 4px;
