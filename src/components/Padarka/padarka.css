@@ -498,7 +498,7 @@ padding: 2px;
 
 @media only screen and (max-width: 1130px) {
   .padarka-section__wrapper {
-    padding: 50px 0 0;
+    padding: 70px 0 0;
   }
   .padarka-section__product {
     flex-direction: column;

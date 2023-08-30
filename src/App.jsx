@@ -6,6 +6,7 @@ import Youtube from './components/Youtube/Youtube'
 import Bvcards from './components/Bvcards/Bvcard'
 import Manage from './components/Manage/Manage'
 import Kanstruktor from './components/Kasntruktor/Kanstruktor'
+import Otziv from './components/Otziv/Otziv'
 import './assets/main.css'
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
       <Bvcards />
       <Manage/>
       <Kanstruktor/>
-      {/* <Otziv />
-      <Zakajite />
+      <Otziv />
+      {/* <Zakajite />
       <Bavariya /> 
       <Delivery />
       <Pokupke />
