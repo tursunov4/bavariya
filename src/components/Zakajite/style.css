@@ -1,0 +1,367 @@
+.zakajite {
+  background-image: url("../../assets/Images/png/Zakajite/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 250px;
+}
+
+.zakajite__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.zakajite__wrapper h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  text-transform: uppercase;
+}
+
+.zakajite__paragraph {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  margin: 20px auto;
+}
+
+.zakajite__center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.zakajite__center--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 50px;
+  width: 454px;
+  height: 195px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.zakajite__center--card h4 {
+  color: #ffb800;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.22px;
+  margin-bottom: 10px;
+}
+
+.zakajite__center--card p {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.22px;
+}
+
+.zakajite__sl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.zakajite__sl span {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 27px;
+  text-decoration-line: strikethrough;
+}
+
+.zakajite__sl {
+  color: #fff;
+  font-family: Gilroy-Regular;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 47px;
+}
+
+.zakajite__wrapper button {
+  margin-top: 10px;
+  padding: 24px 40px;
+  color: #323232;
+  text-align: center;
+  font-family: Inter-Bold;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #ffb800;
+}
+
+
+
+.zakajite__down {
+  background-image: url("../../assets/Images/png/order_wrapper_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  width: 100%;
+  margin-top: 130px;
+}
+
+.zakajite__items {
+  display: flex;
+  align-items: center;
+  border: 2px solid #333333;
+  padding: 0 39px;
+  position: relative;
+  justify-content: center;
+}
+
+.zakajite__items--titles {
+  text-align: start;
+}
+
+.zakajite__items--titles h4 {
+  color: #323232;
+  font-family: Gilroy-Bold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.zakajite__items--titles p {
+  color: #323232;
+  font-family: Gilroy-Regular;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.down__img {
+  position: absolute;
+}
+
+.cer {
+  bottom: -35%;
+  left: 2%;
+}
+
+.gar {
+  bottom: -35%;
+  right: 2%;
+}
+
+.zakajite__ft {
+  margin-top: 90px;
+}
+
+.zakajite__ft h6 {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.18px;
+}
+
+.zakajite__ft p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Gilroy-Light;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.18px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex img {
+  width: 45%;
+}
+
+.zakaj-casursel__div{
+  margin-top: 30px;
+  width: 100% !important;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 1724px) {
+  .zakajite__center--card {
+    padding: 20px;
+  }
+
+  .zakajite__items--titles h4 {
+    font-size: 18px;
+  }
+
+  .zakajite__items--titles p {
+    font-size: 18px;
+  }
+
+  .title__img {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1640px) {
+  .zakajite {
+    padding: 70px 175px;
+    background-position: center center;
+  }
+  .zakajite__center {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex {
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+  }
+  .flex h4 {
+    font-size: 22px;
+  }
+  .flex p {
+    font-size: 22px;
+  }
+  .down__img {
+    position: static;
+  }
+
+  .zakajite__items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .zakajite__items--images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .flex {
+    flex-direction: column;
+  }
+  .zakajite__items--titles {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .zakajite {
+    padding: 25px;
+  }
+
+  .zakajite__wrapper h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .zakajite__wrapper p {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .zakajite__wrapper button {
+    font-size: 22px;
+    width: 200px;
+  }
+  .zakajite__down {
+    margin-top: 30px;
+  }
+
+  .zakajite__items--images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width:550px){
+  .zakaj-casursel__div{
+    margin-top: 20px;
+    width: 100% !important;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .zakajite__center--card {
+    width: 280px;
+    padding: 20px 38px;
+  }
+
+  .zakajite__center--card h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .zakajite__center--card p {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 10px auto;
+  }
+
+  .zakajite__ft h6 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .zakajite__ft p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .zakajite__items {
+    padding: 20px;
+  }
+
+  .zakajite__items--titles h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .flex {
+    border: none;
+  }
+
+  .zakajite__items--titles p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .down__img {
+    width: 100%;
+  }
+}

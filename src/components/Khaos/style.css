@@ -1,0 +1,177 @@
+.khaos {
+  background-image: url("../../assets/Images/png/khaos_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+  cursor: default;
+  padding-top: 57px;
+}
+
+.khaos_wrapper {
+  display: flex;
+  align-items: self-end;
+  justify-content: center;
+  gap: 30px;
+}
+
+.khaos__left h2 {
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.khaos__left p {
+  color: #fff;
+  font-family: Gilroy-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  opacity: 0.75;
+  margin-bottom: 50px;
+}
+
+.khaos_uls {
+  display: flex;
+  gap: 69px;
+  margin-bottom: 42px;
+}
+
+.khaos_uls li {
+  list-style: disc;
+  color: #fff;
+  font-family: Gilroy-Regular;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.75;
+  margin: 7px 0;
+}
+
+.khaos_uls li::marker {
+  color: #ffb800;
+}
+
+@media only screen and (max-width: 1400px) {
+  .khaos_wrapper img {
+    width: 30%;
+  }
+
+  .khaos__left h2 {
+    font-size: 44px;
+  }
+
+  .khaos__left p {
+    font-size: 26px;
+  }
+.khaos_uls {
+  padding-left: 20px;
+}
+  .khaos_uls li {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1145px) {
+  .khaos__left h2 {
+    font-size: 36px;
+  }
+
+  .khaos__left p {
+    font-size: 22px;
+  }
+
+  .khaos_uls li {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .khaos_wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .khaos__left h2 {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .khaos__left p {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .khaos_uls {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 0;
+  }
+
+  .khaos_uls li {
+    font-size: 22px;
+  }
+   .khaos_wrapper img{
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+
+  .khaos{
+    padding-top: 36px;
+  }
+  .khaos__left h2 {
+    font-size: 32px;
+  }
+
+  .khaos__left p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .khaos_uls li{
+    font-size: 16px;
+  }
+
+  .khaos_wrapper img{
+    width: 30%;
+  }
+}
+
+
+@media only screen and (max-width: 680px) {
+  .khaos__left h2 {
+    font-size: 28px;
+  }
+  .khaos__left p {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .khaos_uls li{
+    font-size: 15px;
+  }
+
+  .khaos_wrapper img{
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  .khaos__left h2 {
+    line-height: 29px;
+    text-align: start;
+    font-size: 22px;
+  }
+  .khaos__left p{
+    font-size: 18px;
+  }
+}

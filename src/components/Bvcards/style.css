@@ -1,0 +1,208 @@
+.bvcard-section {
+  padding: 100px 0;
+  background: #ececec;
+}
+.bvcard__wrapper > h2{
+  color: #323232;
+text-align: center;
+font-family: Gilroy;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: 59px; /* 113.462% */
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.bvcard__wrapper > h3{
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px; /* 121.875% */
+  margin-bottom: 50px;
+}
+.bvcard__list {
+  display: flex;
+}
+.bvcard__img-list > li:nth-child(2n) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.bv__card-img {
+  width: 50%;
+}
+.bvcard__img-text {
+  width: 50%;
+  padding: 30px 38px 54px 50px;
+  background: #fff;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.bvcard__img-num {
+  display: block;
+  margin-bottom: 20px;
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 59px; /* 184.375% */
+  text-transform: uppercase;
+  width: 50px;
+  border-radius: 10px;
+  background: #ffb800;
+}
+.bvcard__img-text > h4 {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  margin-bottom: 10px;
+}
+.bvcard__imginner-text p {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+}
+.bv-card__text-inner > li {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29px; /* 131.818% */
+  list-style: disc;
+  margin: 10px 0 10px 20px;
+}
+.bvcard__padrob {
+  display: none;
+}
+@media only screen and (max-width: 1310px) {
+  .bvcard__img-text {
+    padding: 20px;
+  }
+  .bvcard__img-text > h4 {
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+  .bvcard__imginner-text p {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .bv-card__text-inner > li {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .bvcard__img-num {
+    font-size: 22px;
+    line-height: 49px; /* 184.375% */
+    width: 40px;
+  }
+}
+@media only screen and (max-width:1150px){
+  .bvcard__wrapper > h2{
+  font-size: 42px;
+  line-height: 49px; /* 113.462% */
+  }
+  .bvcard__wrapper > h3{  
+    font-size: 22px;
+    font-style: normal;
+    line-height: 29px; /* 121.875% */
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .bvcard__list {
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  .bvcard__img-list li:nth-child(2n) {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .bvcard-section {
+    padding: 70px 0;
+  }
+  .bvcard__list {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .bv__card-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .bvcard__img-text {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .bvcard__wrapper > h2{
+    font-size: 28px;
+    line-height: 39px; /* 113.462% */
+    }
+    .bvcard__wrapper > h3{  
+      font-size: 19px;
+      line-height: 19px; /* 121.875% */
+    }
+  .bvcard-section {
+    padding: 50px 0;
+  }
+  .bvcard__list {
+    width: 100%;
+  }
+  .bvcard__img-text > h4 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .bvcard__imginner-text p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .bv-card__text-inner > li {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .bvcard__img-num {
+    font-size: 18px;
+    line-height: 40px; /* 184.375% */
+    width: 35px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .bvcard__img-text {
+    position: relative;
+  }
+  .bvcard__padrob {
+    cursor: pointer;
+    display: block;
+    color: rgba(50, 50, 50, 0.8);
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
+    text-decoration-line: underline;
+  }
+  .bvcard__img-num {
+    position: absolute;
+    top: -55px;
+    left: 45%;
+  }
+  .bvcard__imginner-text {
+    display: none;
+  }
+}

@@ -1,0 +1,63 @@
+.youtubevideo-text{
+    padding: 30px 10px 300px 10px;
+    background-image: url("../../../assets/Images/png/bootle2.png") ,url("../../../assets/Images/png/bug\'doy.png"), url("../../../assets/Images/png/bagroundyoutube2.png");
+    background-repeat: no-repeat;
+    background-position-x: right, right, left;
+    background-position-y: bottom ,30%,center;
+    background-size: auto;
+  
+  }
+  .youtubevideo-text > h4{
+      color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px; /* 131.818% */
+  margin-bottom: 30px;
+  }
+  .youtubevideo-video{
+      margin: 0 auto;
+      width: 300px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6.522px;
+  background: #595959;
+  margin-bottom: 30px;
+  border-radius: 10px;
+background: #595959;
+box-shadow: 1.7907541990280151px -3.5815083980560303px 10.744524955749512px 0px rgba(115, 115, 115, 0.40);
+  }
+  .youtubevideo-video > img{
+    width: 86%;
+    height: 100%;    
+  }
+  .youtubevideo-text__list-item{
+      margin-bottom: 30px;
+  }
+  .youtubevideo-text__list-item > h5{
+      color: #323232;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 5px;
+  }
+  .youtubevideo-text__list-item > p{
+      color: #323232;
+      font-family: Gilroy;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 22px;
+  }
+  @media only screen and (max-width:375px){
+    .youtubevideo-video{
+        width: 240px;
+        height: 240px; 
+    }
+  }

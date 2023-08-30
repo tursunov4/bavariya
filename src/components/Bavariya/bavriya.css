@@ -1,0 +1,260 @@
+.bavariya-section {
+  background-color: #ececec;
+  padding: 100px 0;
+}
+.bavariya-section__text {
+  margin-bottom: 50px;
+}
+.bavariya-section__text > h2 {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px; /* 113.462% */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.bavariya-section__text > h4 {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px; /* 121.875% */
+}
+.bavariya-section__quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 21px;
+}
+.bavariya-section__quiz-button {
+  outline: none;
+  border: 1px solid #323232;
+  border-radius: 70px;
+  cursor: pointer;
+  padding: 15px 47px;
+  color: #323232;
+  font-family: Inter-Regular;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 131.818% */
+}
+
+.bavariya-section__quiz-button:hover {
+  /* opacity: 0.5; */
+  color: rgb(50, 50, 50, 0.6);
+  transition: all 0.1s ease-in-out;
+}
+
+.bavariya-section__quiz-avtive:hover {
+  color: rgb(50, 50, 50, 0.7);
+  opacity: 0.9;
+  transition: all 0.1s ease-in-out;
+}
+
+.bavariya-section__quiz-avtive {
+  border: none;
+  background-color: #ffb800;
+  outline: none;
+  border-radius: 70px;
+  cursor: pointer;
+  padding: 15px 47px;
+  color: #323232;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+}
+.bavariya-section__product {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.bavariya-section__product > li {
+  width: 435px;
+}
+.bavariya-seciton__product-image {
+  position: relative;
+  width: 100%;
+  height: 353px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 60px;
+  
+}
+.bavariya-section__product-text {
+  position: absolute;
+  display: inline-flex;
+  padding: 10px 25px 10px 23px;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  border-radius: 10px 10px 0px 0px;
+  background: #3f3f3f;
+}
+.bavariya-section__product-text > span {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+}
+.bavariya-section__product-about {
+  width: 100%;
+  padding: 30px 15px;
+  border-radius: 0px 0px 10px 10px;
+  background: #fff;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.bavariya__product-text {
+  margin-bottom: 50px;
+}
+.bavariya__product-text > p {
+  margin-bottom: 20px;
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29px; /* 131.818% */
+  opacity: 0.8;
+}
+.bavariya__product-text > p > span {
+  opacity: 1;
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+}
+.bavariya-price {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.bavariya-price__new {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 47px;
+}
+.bavariya-price__old {
+  display: inline-block;
+  color: rgba(50, 50, 50, 0.7);
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 27px; /* 135% */
+  text-decoration-line: line-through;
+  margin-left: 30px;
+}
+.bavariya-section__product-about > button {
+  border: none;
+  display: block;
+  background-color: #ffb800;
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 271px;
+  height: 91px;
+  color: #323232;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+
+.bavariya__product-text > h5 {
+  display: none;
+}
+@media only screen and (max-width: 1375px) {
+  .bavariya-section__product {
+    gap: 40px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .bavariya-section__text > h2 {
+    font-size: 35px;
+    line-height: 35px; /* 113.462% */
+  }
+  .bavariya-section__text > h4 {
+    font-size: 25px;
+    line-height: 25px; /* 121.875% */
+  }
+}
+@media only screen and (max-width: 500px) {
+  .bavariya-section {
+    padding: 50px 0;
+  }
+  .bavariya-section__text > h2 {
+    font-size: 30px;
+    line-height: 30px; /* 113.462% */
+  }
+  .bavariya-section__text > h4 {
+    font-size: 20px;
+    line-height: 20px; /* 121.875% */
+  }
+}
+@media only screen and (max-width: 425px) {
+  .bavariya__product-text {
+    margin-bottom: 10px;
+  }
+  .bavariya__product-text > p {
+    display: none;
+  }
+  .bavariya__product-text > h5 {
+    display: block;
+    color: rgba(50, 50, 50, 0.8);
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+  .bavariya-section__quiz-button {
+    border-radius: 70px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .bavariya-section__quiz-avtive {
+    border-radius: 70px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .bavariya-section__product-about > button {
+    width: 200px;
+    height: 67px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+}

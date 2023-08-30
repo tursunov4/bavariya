@@ -1,0 +1,268 @@
+.images {
+  margin-top: 100px;
+  padding: 100px auto;
+}
+
+.images > h1 {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.pokupka__images {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 30px;
+  height: 100%;
+}
+
+#item-0 img {
+  width: 100%;
+}
+#item-0 {
+  overflow: hidden;
+  cursor: zoom-in;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  border-radius: 5px;
+  grid-row-end: 3;
+  grid-column-end: 3;
+}
+
+#item-1 img {
+  width: 100%;
+}
+
+#item-1 {
+  overflow: hidden;
+  cursor: zoom-in;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  border-radius: 5px;
+  grid-row-end: 4;
+  grid-column-end: 2;
+}
+
+#item-2 img {
+  width: 100%;
+}
+
+#item-2 {
+  overflow: hidden;
+  cursor: zoom-in;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  border-radius: 5px;
+  grid-row-end: 4;
+  grid-column-end: 3;
+}
+
+#item-3 img {
+  width: 100%;
+}
+
+#item-3 {
+  overflow: hidden;
+  cursor: zoom-in;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  border-radius: 5px;
+  grid-row-end: 2;
+  grid-column-end: 4;
+}
+
+#item-4 img {
+  width: 100%;
+}
+
+#item-4 {
+  overflow: hidden;
+  cursor: zoom-in;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  border-radius: 5px;
+  grid-row-end: 2;
+  grid-column-end: 5;
+}
+
+#item-5 img {
+  width: 100%;
+}
+
+#item-5 {
+  overflow: hidden;
+  cursor: zoom-in;
+  grid-row-start: 2;
+  grid-column-start: 3;
+  border-radius: 5px;
+  grid-row-end: 4;
+  grid-column-end: 5;
+}
+
+#item-6 img {
+  width: 100%;
+}
+
+#item-6 {
+  overflow: hidden;
+  cursor: zoom-in;
+  grid-row-start: 1;
+  grid-column-start: 5;
+  border-radius: 5px;
+  grid-row-end: 3;
+  grid-column-end: 7;
+}
+
+#item-7 img {
+  width: 100%;
+}
+
+#item-7 {
+  overflow: hidden;
+  cursor: zoom-in;
+  grid-row-start: 3;
+  grid-column-start: 5;
+  border-radius: 5px;
+  grid-row-end: 4;
+  grid-column-end: 6;
+}
+#item-0 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-1 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-2 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-3 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-4 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-5 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-6 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+#item-7 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+
+#item-8 img {
+  width: 100%;
+}
+
+#item-8 {
+  cursor: zoom-in;
+  grid-row-start: 3;
+  grid-column-start: 6;
+  border-radius: 5px;
+  grid-row-end: 4;
+  grid-column-end: 7;
+  overflow: hidden;
+}
+
+#item-8 img:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ;
+}
+
+.responsive {
+  display: none;
+}
+
+.responsive h1 {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+.responsive__card-carusel{
+  position: relative;
+}
+.responisive-card__prev{  
+  position: absolute;
+  z-index: 3;
+  top: 46%;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+}
+.responisive-card__next{  
+  position: absolute;
+  z-index: 3;
+  top: 46%;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.images-modal__img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media only screen and (max-width: 1370px) {
+  .images h1 {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width:900px){
+  .images-modal__img > img{
+    width: 500px;
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 866px) {
+  .images h1 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .images h1 {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .images {
+    display: none;
+  }
+
+  .responsive {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .responsive h1 {
+    margin-bottom: 30px;
+  }
+
+  .responsive__card img {
+    width: 100%;
+  }
+}

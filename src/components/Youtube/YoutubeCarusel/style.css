@@ -1,0 +1,40 @@
+.youtubecarusel{
+    padding: 20px 0     ;
+}
+.youtubecarusel-line{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    opacity: 0.8;
+background: #E0E0E0;
+}
+.youtubecarusel > h4{
+ opacity: 0.8;
+ margin-bottom: 50px;
+color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 39px; /* 121.875% */
+}
+.swipw{
+    display: flex;
+}
+.swip{
+    background-color: #FFF;
+    height: 200px;
+}
+
+.carousel__hover:hover{
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+}
+
+/* .youtubecarusel__wrapper-prev:hover{
+    opacity: 0.8;
+    background: #323232;
+} */

@@ -1,0 +1,297 @@
+.modal5 {
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  padding-top: 30px; /* Location of the box */
+  padding-bottom: 30px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.video__md iframe {
+  width: 100%;
+  height: 345px;
+  border-radius: 10px;
+}
+
+.youTube__modal {
+  margin: auto;
+  border-radius: 10px;
+  background: #fff;
+  padding: 50px;
+  width: 70%;
+  position: relative;
+}
+
+.youTube__modal h3 {
+  color: #323232;
+  text-align: center;
+  font-family: Roboto-Bold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.md__table {
+  border-right: 1px solid #e0e0e0;
+  padding-right: 25px;
+}
+
+.modal__wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.modal__wrapper table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  padding: 10px;
+}
+
+.modal__wrapper > th,
+td {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.modal__wrapper--td1 {
+  color: rgba(50, 50, 50, 0.8);
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  width: 66%;
+}
+
+.modal__wrapper--td2 {
+  color: rgba(50, 50, 50, 0.8);
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+  width: 33%;
+}
+
+.modal__left {
+  width: 50%;
+}
+
+.modal__right {
+  width: 50%;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+}
+
+.modal__right p span {
+  color: #323232;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.modal__right p {
+  color: #323232;
+  font-family: Gilroy-Light;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.modal__left--img {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.modal__left--img img {
+  width: 50%;
+}
+
+.close__md {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+ 
+}
+
+@media only screen and (max-width: 1710px) {
+  .md {
+    padding: 58px 170px;
+  }
+
+  .modal__left--img {
+    margin-top: 10px;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px a;
+  }
+
+  .modal__left--img img {
+    width: 50%;
+  }
+
+  .modal__right p span {
+    color: #323232;
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+  }
+
+  .modal__right p {
+    color: #323232;
+    font-family: Gilroy-Light;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+  }
+}
+
+@media only screen and (max-width: 1510px) {
+  .md__table {
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 30px;
+  }
+  .md {
+    padding: 20px 150px;
+  }
+
+  .youTube__modal h3 {
+    font-size: 32px;
+  }
+  .modal__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .modal__left {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .modal__left--img {
+    margin-top: 30px;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 10px auto;
+  }
+
+  .modal__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+    gap: 20px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  .md {
+    padding: 30px 0;
+  }
+
+  .md__table {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .youTube__modal {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .youTube__modal h3 {
+    font-size: 22px;
+  }
+
+  .modal__left--img {
+    margin-top: 10px;
+    gap: 0;
+  }
+
+  .modal__left--img img {
+    width: 40%;
+  }
+
+  .modal__wrapper--td1 {
+    color: rgba(50, 50, 50, 0.8);
+    font-family: Gilroy;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 66%;
+  }
+
+  .modal__wrapper--td2 {
+    color: rgba(50, 50, 50, 0.8);
+    font-family: Gilroy;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: right;
+    width: 33%;
+  }
+
+  .modal__right p {
+    line-height: 22px;
+  }
+
+  .video__md {
+    display: flex;
+    justify-content: center;
+  }
+
+  .video__md iframe {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .video__md iframe {
+    height: 135px;
+    width: 100%;
+  }
+}

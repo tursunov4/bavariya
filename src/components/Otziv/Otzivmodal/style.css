@@ -1,0 +1,57 @@
+.modalotziv {
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    padding-top: 40px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content__otziv {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 50px;
+    width: 745px;
+    height: 610px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .modal-exit__otziv{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+  }
+  
+@media only screen and (max-width:1000px){
+    .modal-content__otziv {
+       
+        padding: 30px;
+        width: 400px;
+        height: 500px;
+      
+    }        
+}
+@media only screen and (max-width:440px){
+    .modal-content__otziv {      
+        padding: 20px;
+        width: 280px;
+        height: 513px;    
+        border-radius: 10px;
+    }  
+}

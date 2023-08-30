@@ -1,0 +1,331 @@
+.delivery {
+  background-image: url("../../assets/Images/png/delivery_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 250px;
+}
+
+.del__wrapper {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.delivery__left--card {
+  padding: 50px 30px;
+  border-radius: 10px;
+  background: #fff;
+  margin: 20px 0;
+  height: 367px;
+}
+
+.delivery__left--card h3 {
+  color: #ffb800;
+  font-family: Gilroy;
+  font-size: 52px;
+  text-transform: uppercase;
+}
+
+.delivery__left--card p {
+  color: #323232;
+  font-family: Gilroy-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  margin: 20px 0;
+  width: 444px;
+}
+
+.delivery__left--card div {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+
+.delivery__form--hover:hover {
+  background: #323232;
+  box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease-in-out;
+  color: #ffe500;
+}
+
+.delivery__right--card div:nth-child(1) {
+  border-radius: 10px 10px 0px 0px;
+  background: #fceb0a;
+  padding: 27px 53px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 395px;
+}
+
+.delivery__right--card div:nth-child(1) > img {
+  display: flex;
+  width: 157px;
+  justify-content: center;
+  align-items: center;
+}
+
+.delivery__right--card div:nth-child(1) > h2 {
+  width: 364px;
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-weight: 700;
+  line-height: 59px;
+  text-transform: uppercase;
+}
+
+.delivery__right--card div:nth-child(1) > p {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  width: 592px;
+}
+
+.delivery__right--card div:nth-child(2) {
+  border-radius: 0px 0px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  height: 363px;
+}
+
+.delivery__right--card div:nth-child(2) > p {
+  color: #323232;
+  font-family: Gilroy-Regular;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.delivery__right--card div:nth-child(2) > p > strong {
+  color: #323232;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.delivery__form {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.delivery__form button {
+  color: #323232;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 24px 40px;
+  border: none;
+  background-color: #fceb0a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delivery__form p {
+  color: #323232;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 39px;
+}
+
+@media only screen and (max-width: 1480px) {
+  .delivery {
+    padding: 100px 200px;
+  }
+
+  .delivery__left--card {
+    padding: 40px 20px;
+  }
+  .delivery__left--card h3 {
+    font-size: 36px;
+  }
+
+  .delivery__left--card p {
+    font-size: 26px;
+  }
+
+  .delivery__left--card div > img {
+    height: 63px;
+    width: 110px;
+  }
+
+  .delivery__right--card div:nth-child(1) {
+    padding: 27px 43px;
+  }
+  .delivery__right--card div:nth-child(1) > h2 {
+    font-size: 36px;
+  }
+  .delivery__right--card div:nth-child(1) > p {
+    font-size: 26px;
+  }
+  .delivery__right--card div:nth-child(2) p {
+    font-size: 18px;
+  }
+
+  .delivery__right--card div:nth-child(2) p > strong {
+    font-size: 18px;
+  }
+
+  .delivery__form > button {
+    font-size: 32px;
+  }
+  .delivery__form > p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .delivery {
+    padding: 50px 100px;
+  }
+  .del__wrapper {
+    flex-direction: column;
+  }
+
+  .delivery__left {
+    width: 100%;
+  }
+
+  .delivery__left--card {
+    padding: 30px;
+  }
+
+  .delivery__right--card {
+    width: 100%;
+  }
+
+  .delivery__left--card > h3 {
+    text-align: center;
+  }
+
+  .delivery__right--card div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .delivery__form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .delivery__left--card {
+    padding: 20px 30px;
+  }
+  .delivery__left--card h3 {
+    font-size: 32px;
+  }
+
+  .delivery__left--card p {
+    margin: 10px 0;
+    font-size: 22px;
+    width: auto;
+  }
+
+  .delivery__left--card div {
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .delivery__right--card div:nth-child(1) {
+    padding: 30px 20px;
+  }
+
+  .delivery__right--card div:nth-child(2) {
+    padding: 30px 20px;
+  }
+
+  .delivery__right--card div:nth-child(1) > h2 {
+    font-size: 32px;
+  }
+  .delivery__right--card div:nth-child(1) > p {
+    width: auto;
+    font-size: 22px;
+  }
+  .delivery__right--card div:nth-child(2) > p {
+    font-size: 18px;
+  }
+  .delivery__right--card div:nth-child(2) > p > strong {
+    width: 65px;
+    line-height: 25px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 692px) {
+  .delivery {
+    padding: 30px 20px;
+  }
+  .delivery__right--card div:nth-child(1) > h2 {
+    font-size: 27px;
+    width: auto;
+  }
+  .delivery__right--card div:nth-child(1) > p {
+    font-size: 22px;
+  }
+  .delivery__right--card div:nth-child(2) {
+    height: auto;
+  }
+
+  .delivery__right--card div:nth-child(2) > p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .delivery__right--card div:nth-child(2) > p > strong {
+    font-size: 15px;
+    width: 84px;
+    line-height: 25px;
+  }
+
+  .delivery__form {
+    flex-direction: column-reverse;
+  }
+
+  .delivery__form p {
+    font-size: 22px;
+    line-height: 29px;
+    font-family: Gilroy-Bold;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .delivery__left--card div {
+    justify-content: start;
+  }
+
+  .delivery__left--card div img {
+    width: 60px;
+  }
+
+  .delivery__form > button {
+    font-size: 22px;
+  }
+}

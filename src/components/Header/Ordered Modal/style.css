@@ -1,0 +1,161 @@
+.ordered__modal {
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  padding-top: 30px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.ordered__modal--content {
+  position: relative;
+  background-color: #fff;
+  margin: auto;
+  border: 1px solid #888;
+  width: 45%;
+  padding: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.modal-exit {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ordered__modal--wrapper {
+  border-radius: 10px;
+}
+
+.ordered__modal--wrapper h3 {
+  color: #323232;
+  text-align: center;
+  font-family: Roboto-Bold;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  margin-bottom: 30px;
+}
+
+.ordered__modal--wrapper form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ordered__modal--wrapper form input {
+  margin: 20px auto;
+  margin-top: 20px;
+  display: grid;
+  place-content: center;
+  border-radius: 5px;
+  background: #f3f3f3;
+  padding: 15px 20px;
+  color: #8b8b8b;
+  font-family: Inter-Regular;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+}
+
+.ordered__modal--wrapper form button {
+  margin: 10px auto;
+  padding: 24px;
+  color: #323232;
+  text-align: center;
+  font-family: Inter-Bold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.22px;
+  border: none;
+  border-radius: 20px;
+  background: #ffb800;
+  cursor: pointer;
+}
+
+.ordered__modal--wrapper p {
+  color: #323232;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .ordered__modal--content {
+    width: 70%;
+  }
+
+  .ordered__modal--wrapper h3 {
+    font-size: 26px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+
+  .ordered__modal--wrapper form input {
+    font-size: 18px;
+  }
+
+  .ordered__modal--wrapper p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .ordered__modal--content {
+    width: 90%;
+  }
+
+  .ordered__modal--wrapper h3 {
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 5px;
+  }
+
+  .ordered__modal--wrapper form input {
+    font-size: 15px;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .ordered__modal--wrapper form button {
+    font-size: 18px;
+    line-height: 17px;
+    padding: 20px 40px;
+  }
+
+  .ordered__modal--wrapper p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

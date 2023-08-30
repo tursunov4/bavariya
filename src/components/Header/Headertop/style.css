@@ -1,0 +1,622 @@
+.headertop__md {
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  padding-top: 30px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.headertop__md--content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 90%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.modal-exit {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.headertop__md--wrapper {
+  display: flex;
+}
+
+.headertop__md--left {
+  border-radius: 10px 0px 0px 0px;
+
+  background: #f4f4f4;
+  width: 33.33333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headertop__md--right {
+  width: 66.66666%;
+  border-radius: 10px;
+  background: #fff;
+  padding: 30px;
+}
+
+.headermd__left--top {
+  padding: 40px 0;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headertopmd__image {
+  width: 344px;
+  margin: 76px auto;
+}
+
+.headerTop_lg {
+  display: flex;
+  align-items: center;
+  gap: 10.5px;
+}
+
+.headerTop_lg p {
+  color: #292929;
+  font-family: Inter-ExtraLight;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 20px;
+  border-left: 1px solid #9b9b9b;
+  padding-left: 11px;
+}
+
+.headertop__left--down {
+  background: #323232;
+  width: 100%;
+  padding: 36px;
+}
+
+.headertop__left--down p {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.headertop__left--down h3 {
+  color: #fff;
+  font-family: Roboto-Black;
+  font-size: 50px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 900;
+  line-height: 50px;
+  margin-top: 17px;
+}
+
+.headertop__md--right h2 {
+  color: #323232;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  margin-bottom: 10px;
+}
+
+.headertop__md--right p {
+  color: #323232;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.headertop__md--right select {
+  width: 50%;
+  margin: 30px auto;
+  padding: 17px 15px;
+  border-radius: 3px;
+  border: 2px solid #323232;
+  background: #fff;
+  color: #323232;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+}
+
+.headertop__md--menu {
+  padding: 10px;
+  border-bottom: 2px solid #d0d0d0;
+  padding-bottom: 30px;
+}
+
+.headertop__md--allcards {
+  overflow-y: scroll;
+  height: 375px;
+  padding: 10px 231px 10px 15px;
+  width: 100%;
+}
+
+.headertop__md--allcards::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 1px;
+}
+
+.headertop__md--allcards::-webkit-scrollbar-thumb {
+  background: #ffb800;
+  border-radius: 10px;
+}
+
+.headertop__md--allcards::-webkit-scrollbar {
+  width: 2px;
+}
+
+.headertop__md--menu h6 {
+  color: #323232;
+  text-align: left;
+  font-family: Roboto-Bold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.headeertop__md--card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 20px;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.headertop__more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headeertop__md--card-sale {
+  color: #323232;
+  font-family: Inter-Regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.headeertop__md--card button {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #878787;
+  border-radius: 100%;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.headeertop__md--card button > p {
+  width: 100%;
+  height: 100%;
+  background: #ffb800;
+  border-radius: 100%;
+}
+
+.headeertop__md--card h4 {
+  display: flex;
+  flex-direction: column;
+  color: #323232;
+  font-family: Montserrat-Black;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: end;
+  line-height: 22px;
+}
+
+.headertop__md--right form {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.headertop__md--right form input {
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #f3f3f3;
+  width: 33%;
+}
+
+.headertop__md--right form button {
+  border-radius: 20px;
+  background: #ffb800;
+  display: flex;
+  width: 285px;
+  height: 64px;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #323232;
+  text-align: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.22px;
+  border: none;
+  width: 33%;
+}
+
+.headertop__md--right-images {
+  display: flex;
+  align-items: center;
+  gap: 57px;
+  justify-content: space-around;
+}
+
+.md__checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.md__checkbox label {
+  color: var(--gray-2, #4f4f4f);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+
+.headertop__md--phone {
+  display: none;
+}
+
+.headertop__md--phone form {
+  display: flex;
+  flex-direction: column;
+}
+
+.headertop__md--phone form input {
+  border-radius: 3px;
+  background: #f3f3f3;
+  color: #8b8b8b;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.headertop__md--phone form input:nth-child(1) {
+  margin-top: 30px;
+}
+
+.headertop__md--phone form input:focus {
+  border: 1px solid #8b8b8b;
+}
+
+.headertop__md--allcards-phone {
+  display: none;
+}
+
+.headertop__md--allcards-phone a {
+  color: #323232;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration-line: underline;
+}
+
+.md__checkbox--phone label {
+  color: #4f4f4f;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.15px;
+}
+
+.itogo__phone{
+  display: none;
+}
+
+@media only screen and (max-width: 1215px) {
+  .headertopmd__image {
+    width: 100%;
+  }
+
+  .headertop__left--down p {
+    font-size: 26px !important;
+  }
+
+  .headertop__left--down h3 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .headertop__md--right h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .headertop__md--right p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .headertop__md--right select {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headertop__md--menu h6 {
+    font-size: 18px;
+  }
+
+  .headeertop__md--card-sale {
+    font-size: 15px !important;
+    margin-top: default;
+  }
+
+  .headeertop__md--cardh4 {
+    font-size: 14px !important;
+  }
+  .headertop__more {
+    align-items: center;
+  }
+
+  .headeertop__md--card button {
+    width: 24px;
+    height: 24px;
+  }
+
+  .headertop__md--right form button {
+    font-size: 18px;
+    padding: 0 18px;
+  }
+
+  .md__checkbox label {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1064px) {
+  .headertop__md--allcards {
+    padding: 10px 15px 10px 15px;
+  }
+  .headertop__md--right {
+    padding: 10px;
+    margin-top: auto;
+  }
+
+  .md__checkbox label {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 978px) {
+  .headertop__md--wrapper {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .headertop__md--left {
+    background: #fff;
+  }
+  .headermd__left--top img {
+    width: 60%;
+  }
+  .headertop__md--left {
+    width: 100%;
+  }
+  .headertop__md--right {
+    width: 100%;
+  }
+
+  .headertop__md--right form {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+}
+
+@media only screen and (max-width: 610px) {
+  .headertop__md--menu {
+    padding: 0px; 
+  }
+  .itogo__phone{
+    display: block;
+  }
+  .headertop__md--wrapper {
+    padding: 5px;
+  }
+  .headertop__md--allcards {
+    display: none;
+  }
+
+  .headertop__md--phone {
+    display: block;
+    width: 100%;
+  }
+
+  .headertop__md--phone form input {
+    width: 100%;
+  }
+
+  .headertop__md--phone form button {
+    width: 100%;
+  }
+
+  .headertop__md--right .hidden {
+    display: none;
+  }
+  .headertop__md--phone form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .md__checkbox {
+    display: none;
+  }
+
+  .headertop__md--phone .md__checkbox--phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 200px;
+  }
+
+  .headertop__md--phone .md__checkbox--phone input {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .headertop__left--down {
+    display: none;
+  }
+
+  .headertop__md--right select {
+    width: 100%;
+  }
+
+  .headertop__md--menu .headertop__md--allcards-phone {
+    display: block;
+  }
+
+  .headertop__md--right-images {
+    display: none;
+  }
+
+  .itogo__phone {
+    background: #323232;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+  }
+
+  .itogo__phone--titles {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+
+  .itogo__phone--titles p {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto-Bold;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .itogo__phone--titles h4 {
+    color: #fff;
+    font-family: Roboto-Black;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 39px;
+  }
+
+  .itogo__phone--image {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headertop__md--allcards-phone .headeertop__md--card-sale {
+    color: #323232;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: start;
+  }
+
+  .headeertop__md--card h4 {
+    color: #323232;
+    font-family: Rubik-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .headertopmd__image {
+    margin: 20px auto;
+  }
+
+  .headerTop_lg p {
+    line-height: 15px;
+    font-size: 12px;
+  }
+
+  .headerTop_lg img{
+    width: 100px;
+  }
+}

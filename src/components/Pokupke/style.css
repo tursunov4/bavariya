@@ -1,0 +1,68 @@
+.pokupke {
+  background: #ececec;
+}
+
+.pokupka__wrapper {
+  padding: 100px 0;
+}
+
+.pokupka__title {
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59px;
+  text-transform: uppercase;
+}
+
+.pokupka__paragraph {
+  margin-top: 20px;
+  color: #323232;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1370px) {
+  .pokupka__title {
+    font-size: 42px;
+  }
+
+  .pokupka__paragraph {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 866px) {
+  .pokupka__wrapper {
+    padding: 30px 20px;
+  }
+
+  .pokupka__title {
+    font-size: 32px;
+  }
+
+  .pokupka__paragraph {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .pokupka__title {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .pokupka__paragraph {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+}
