@@ -2,7 +2,6 @@
 import certificate from "../../assets/Images/png/Zakajite/certificate.png";
 import garant from "../../assets/Images/png/Zakajite/garant.png";
 import down_png from "../../assets/Images/png/Zakajite/down__image.png";
-import ZakajiteModal from "./Zakajitemodal/ZakajiteModal";
 import "./style.css";
 
 const Zakajite = () => {
@@ -14,7 +13,7 @@ const Zakajite = () => {
             <h2>Закажите напрямую от производителя</h2>
              <h3>Лучшие условия для обладателей BAVARIA на весь срок экслуатации </h3>
              <div className="zakjite__carusel">
-              <ZakajiteModal/>
+          
              </div>
              <div className="zakajite__wrap-text">
               <div className="zakajite__text-inner">

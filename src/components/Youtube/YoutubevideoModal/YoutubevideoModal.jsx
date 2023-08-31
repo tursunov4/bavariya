@@ -119,13 +119,7 @@ if(modal){
                 </p>
   
                 <div className="video__md">
-                  <iframe
-                    src="https://www.youtube.com/embed/VYSc1h8qkgg?si=zsYKEq6exWZnHbHw"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eRI1P42BPWU?si=PoHITn1ILYlR1-nV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
               </div>
             </div>

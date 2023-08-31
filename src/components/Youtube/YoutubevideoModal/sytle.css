@@ -52,6 +52,7 @@
 .modal__wrapper table {
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: 45px;
 }
 
 tr {
@@ -61,7 +62,8 @@ tr {
 .modal__wrapper > th,
 td {
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #323232;
+  padding: 10px;
 }
 
 .modal__wrapper--td1 {
@@ -95,8 +97,9 @@ td {
   padding-left: 25px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 30px;
-  height: 100%;
+  height: auto;
 }
 
 .modal__right p span {
