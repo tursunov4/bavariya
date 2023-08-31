@@ -4,6 +4,7 @@
     display: block;
     position: relative;
 }
+
 @media only screen and (max-width:600px){
     .yandexmap-section{
         width: 100%;
@@ -13,3 +14,6 @@
     }  
 }   
 
+.yadne{
+   filter:  brightness(0) saturate(100%) invert(83%) sepia(35%) saturate(306%) hue-rotate(360deg) brightness(101%) contrast(102%) opacity(50%);
+}
