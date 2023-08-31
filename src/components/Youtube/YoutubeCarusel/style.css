@@ -30,11 +30,6 @@ line-height: 39px; /* 121.875% */
 }
 
 
-.carousel__hover:hover{
-    opacity: 0.5;
-    transition: all 0.2s ease-in-out;
-}
-
   /* @media only screen and (max-width:1471px){
       .zakajite-section .swiper-slide{
         width: 344px !important;

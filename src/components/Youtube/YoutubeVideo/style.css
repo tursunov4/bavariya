@@ -9,9 +9,9 @@
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 4px 14px 0px rgba(111, 111, 111, 0.15);
-  background-image: url("../../../assets/Images/png/bootle.png"),
-    url("../../../assets/Images/png/bagroundyoutube.png"),
-    url("../../../assets/Images/png/bug'doy.png");
+  background-image: url("../../../assets/Images/png/bootle.webp"),
+    url("../../../assets/Images/png/bagroundyoutube.webp"),
+    url("../../../assets/Images/png/bug_doy.webp");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 90%, 50%, top;
@@ -134,12 +134,11 @@
     border-radius: 10px;
     background: #fff;
     box-shadow: 0px 4px 14px 0px rgba(111, 111, 111, 0.15);
-    background-image: url("../../../assets/Images/png/bootle.png"),
-      url("../../../assets/Images/png/bagroundyoutube.png"),
-      url("../../../assets/Images/png/bug'doy.png");
+    background-image: url("../../../assets/Images/png/bootle.webp"),
+      url("../../../assets/Images/png/bagroundyoutube.webp"),      url("../../../assets/Images/png/bug_doy.webp") !important;
     background-repeat: no-repeat;
     background-position-x: right, center, right;
-    background-position-y: 90%, 0, top;
+    background-position-y: 90%, 0, top; 
     background-size: auto;
   }
 }

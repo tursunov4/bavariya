@@ -15,12 +15,11 @@ import Yandexmap from './components/Yandexmap/Yandexmap'
 import Footer from './components/Footer/index';
 import Khaos from './components/Khaos/index'
 import Zakajite from './components/Zakajite/Zakajite'
-import Modal from './components/Zakajite/Zakajitemodal/ZakajiteModal'
 function App() {
 
   return (
     <>
-    {/* <Modal/> */}
+ 
        <Header />      
       <Hero />
       <Bavariya /> 
