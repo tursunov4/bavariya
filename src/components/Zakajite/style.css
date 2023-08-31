@@ -1,5 +1,9 @@
 .zakajite-section{
   padding: 100px 50px;
+  background-image: url("../../assets/Images/png/Zakajite/Background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: black;
 }
 .zakajite__wrap-text{

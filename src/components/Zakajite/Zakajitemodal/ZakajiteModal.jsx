@@ -17,7 +17,7 @@ const ZakajiteModal = () => {
       
        modules={[Navigation, Pagination,  A11y]}    
        centerInsufficientSlides
-       spaceBetween={10}
+       spaceBetween={100}
        navigation
      
        breakpoints={{
@@ -41,14 +41,14 @@ const ZakajiteModal = () => {
         <img src={next} alt="" />
        </div>
          <div className="zakajcarusel-item">
-         <SwiperSlide  >
-          <div className="zak">
-            <img src={zakaj} alt="" />
-          </div>
-        </SwiperSlide>
         <SwiperSlide>
           <div className="zak">
             <img src={zakaj2} alt="" />
+          </div>
+        </SwiperSlide>
+         <SwiperSlide  >
+          <div className="zak">
+            <img src={zakaj} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>

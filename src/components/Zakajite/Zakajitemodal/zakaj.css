@@ -42,6 +42,10 @@
 .zakaj__next:hover{
    opacity: 0.8;
 }
+.zakajcarusel-item{
+    width: 98%;
+    margin: 0 auto;
+}
 
 @media only screen and (max-width:435px){
     .zakajite__carusel-img > img {

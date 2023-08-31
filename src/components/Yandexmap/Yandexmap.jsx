@@ -1,8 +1,6 @@
-import React from 'react'
 import './yandex.css'
 import img from '../../assets/Images/svg/yandexicon.svg'
 import { YMaps, Map, Placemark,ZoomControl  } from '@pbe/react-yandex-maps'
-
 const Yandexmap = () => {
   return (
     <section className='yandexmap-section'>
@@ -11,11 +9,13 @@ const Yandexmap = () => {
         <Map   width="100%" height="100%" defaultState={{ center: [55.684758, 37.738521], zoom: 12 }}>
             <ZoomControl/>
             <Placemark
+              
               geometry={[55.684758, 37.738521]}
                 options={
                   {
                       iconLayout: 'default#image',
-                      iconImageHref: img
+                      iconImageHref: img,
+                      
                   }}
                   />
         </Map>
