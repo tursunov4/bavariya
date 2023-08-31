@@ -25,7 +25,7 @@ const ResponsiveCard = () => {
        className="responsive__card-carusel"
        modules={[Navigation, Pagination,  A11y]}    
        navigation
-       pagination={{ clickable: true }}
+     
        onSwiper={(swiper) => console.log(swiper)}
        onSlideChange={() => console.log('slide change')}
       >

@@ -7,8 +7,14 @@ import Bvcards from './components/Bvcards/Bvcard'
 import Manage from './components/Manage/Manage'
 import Kanstruktor from './components/Kasntruktor/Kanstruktor'
 import Otziv from './components/Otziv/Otziv'
+import Delivery from "./components/Delivery/index"
+import Pokupke from './components/Pokupke/Pokupka'
+import Order  from './components/Order/index'
 import './assets/main.css'
-
+import Yandexmap from './components/Yandexmap/Yandexmap'
+import Footer from './components/Footer/index';
+import Khaos from './components/Khaos/index'
+import Zakajite from './components/Zakajite/Zakajite'
 function App() {
 
   return (
@@ -22,14 +28,14 @@ function App() {
       <Manage/>
       <Kanstruktor/>
       <Otziv />
-      {/* <Zakajite />
+      <Zakajite />
       <Bavariya /> 
       <Delivery />
       <Pokupke />
       <Order />
       <Khaos />      
       <Yandexmap/> 
-      <Footer />  */}
+      <Footer /> 
     </>
   )
 }

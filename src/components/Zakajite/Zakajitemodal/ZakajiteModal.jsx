@@ -1,6 +1,6 @@
 import React from 'react'
 import './zakaj.css'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination,  A11y } from 'swiper/modules';
 import {Swiper,SwiperSlide} from 'swiper/react'
 import zakaj from '../../../assets/Images/png/zakaj1.png'
 import zakaj2 from '../../../assets/Images/png/zakaj2.png'
@@ -17,9 +17,9 @@ const ZakajiteModal = () => {
       
        modules={[Navigation, Pagination,  A11y]}    
        centerInsufficientSlides
-       spaceBetween={20}
+       spaceBetween={10}
        navigation
-       pagination={{ clickable: true }}
+     
        breakpoints={{
         300:{
           slidesPerView:1
@@ -42,22 +42,22 @@ const ZakajiteModal = () => {
        </div>
          <div className="zakajcarusel-item">
          <SwiperSlide  >
-          <div className="zakajite__carusel-img">
+          <div className="zak">
             <img src={zakaj} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="zakajite__carusel-img">
+          <div className="zak">
             <img src={zakaj2} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="zakajite__carusel-img">
+          <div className="zak">
             <img src={zakaj3} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="zakajite__carusel-img">
+          <div className="zak">
             <img src={zakaj} alt="" />
           </div>
         </SwiperSlide>

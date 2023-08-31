@@ -1,5 +1,6 @@
 footer {
-  background-image: url("../../assets/Images/png/Footer_background.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, #9C5819 0%, #9C5819 100%), url('../../assets/Images/png/Footer_background.png'), lightgray 0px -242px / 100.187% 231.206% no-repeat;
+background-blend-mode: normal, multiply, normal;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 40px;

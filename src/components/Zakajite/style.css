@@ -1,367 +1,358 @@
-.zakajite {
-  background-image: url("../../assets/Images/png/Zakajite/Background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px 250px;
+.zakajite-section{
+  padding: 100px 50px;
+  background-color: black;
 }
-
-.zakajite__wrapper {
+.zakajite__wrap-text{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
-
-.zakajite__wrapper h1 {
-  color: #fff;
-  text-align: center;
-  font-family: Gilroy-Bold;
-  font-size: 52px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 59px;
-  text-transform: uppercase;
+.zakajite__wrapper > h2{
+  color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: 59px; /* 113.462% */
+text-transform: uppercase;
+margin-bottom: 20px;
 }
-
-.zakajite__paragraph {
-  color: #fff;
+.zakajite__wrapper > h3{
+  color: #FFF;
   text-align: center;
-  font-family: Gilroy-Regular;
+  font-family: Gilroy;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: 39px;
-  margin: 20px auto;
+  margin-bottom: 40px;
 }
-
-.zakajite__center {
+.zakajite__text-inner{
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+}
+.zakajite__text-inner > h5{
+  color: #FFB800;
+text-align: center;
+font-family: Gilroy;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px; /* 131.818% */
+letter-spacing: 0.22px;
+margin-bottom: 10px;
+}
+.zakajite__text-inner > p{
+  color: #323232;
+text-align: center;
+font-family: Gilroy;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 29px; /* 131.818% */
+letter-spacing: 0.22px;
+}
+.zakijacte__cost{
+  margin-top: 30px;
+  margin-bottom: 133px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 30px;
-}
-
-.zakajite__center--card {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  padding: 20px 50px;
-  width: 454px;
-  height: 195px;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
-}
-
-.zakajite__center--card h4 {
-  color: #ffb800;
-  text-align: center;
-  font-family: Gilroy-Bold;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 29px;
-  letter-spacing: 0.22px;
-  margin-bottom: 10px;
-}
-
-.zakajite__center--card p {
-  color: #323232;
-  text-align: center;
-  font-family: Gilroy-Regular;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 29px;
-  letter-spacing: 0.22px;
-}
-
-.zakajite__sl {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin-top: 50px;
+  gap: 5px;
 }
-
-.zakajite__sl span {
-  color: rgba(255, 255, 255, 0.7);
+.zakijacte__cost > h4{
+  color: rgba(255, 255, 255, 0.70);
   font-family: Gilroy;
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
-  line-height: 27px;
-  text-decoration-line: strikethrough;
+  line-height: 27px; /* 135% */
+  text-decoration-line: line-through;
 }
-
-.zakajite__sl {
-  color: #fff;
-  font-family: Gilroy-Regular;
+.zakijacte__cost > h5{
+  color: #FFF;
+  font-family: Gilroy;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
-  line-height: 47px;
+  line-height: 47px; 
+  margin-bottom: 10px;
 }
-
-.zakajite__wrapper button {
-  margin-top: 10px;
-  padding: 24px 40px;
-  color: #323232;
-  text-align: center;
-  font-family: Inter-Bold;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+.zakijacte__cost > button{
   border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  background: #ffb800;
+  outline: none;
+  display: block;
+  width: 271px;
+  height: 91px;
+  border-radius: 4px;
+  color: #323232;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background-color: #FFB800;
 }
-
-
-
-.zakajite__down {
-  background-image: url("../../assets/Images/png/order_wrapper_background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 30px;
+.zakijate__document{
   width: 100%;
-  margin-top: 130px;
+  padding: 30px;
+  margin-bottom: 90px;
+  background-image: url("../../assets/Images/png/Zakajite/zakijatebag.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-
-.zakajite__items {
+.zakijate__documnent-inner{
+  position: relative;
   display: flex;
   align-items: center;
-  border: 2px solid #333333;
-  padding: 0 39px;
-  position: relative;
-  justify-content: center;
+  justify-content: center; 
+  gap: 10px;   
 }
-
-.zakajite__items--titles {
-  text-align: start;
+.zakijate__doc-text{
+  max-width: 350px;
 }
-
-.zakajite__items--titles h4 {
+.zakijate__doc-text > h4{
   color: #323232;
-  font-family: Gilroy-Bold;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 29px;
+font-family: Gilroy;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px;
+margin-bottom: 10px;
 }
-
-.zakajite__items--titles p {
+.zakijate__doc-text > p{
   color: #323232;
-  font-family: Gilroy-Regular;
+  font-family: Gilroy;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 29px;
 }
-
-.down__img {
+.div__zkijate-doc1{
   position: absolute;
+  right: 30px;
+  cursor:zoom-in;
 }
-
-.cer {
-  bottom: -35%;
-  left: 2%;
+.div__zkijate-doc2{
+  position: absolute;
+  left: 30px;
+   cursor:zoom-in;
 }
-
-.gar {
-  bottom: -35%;
-  right: 2%;
+.zakijate__docin{
+  border: 2px solid #333;
+  padding: 10px;
 }
-
-.zakajite__ft {
-  margin-top: 90px;
+.zakijate__document-img{
+  display: none;
 }
-
-.zakajite__ft h6 {
-  color: rgba(255, 255, 255, 0.7);
+.zakijate__document-img >img{
+  cursor: zoom-in;
+}
+.zakijate__about > h5{
+  color: rgba(255, 255, 255, 0.70);
+text-align: center;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 138.889% */
+letter-spacing: 0.18px;
+margin-bottom: 10px;
+}
+.zakijate__about > p{
+  color: rgba(255, 255, 255, 0.50);
   text-align: center;
-  font-family: Gilroy-Regular;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.18px;
-}
-
-.zakajite__ft p {
-  color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  font-family: Gilroy-Light;
+  font-family: Gilroy;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 25px; /* 138.889% */
   letter-spacing: 0.18px;
 }
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.flex img {
-  width: 45%;
-}
-
-.zakaj-casursel__div{
-  margin-top: 30px;
-  width: 100% !important;
-  margin-bottom: 30px;
-}
-@media only screen and (max-width: 1724px) {
-  .zakajite__center--card {
-    padding: 20px;
+@media only screen and (max-width:1367px){
+  .zakijate__documnent-inner{
+    padding:10px 300px ;
   }
-
-  .zakajite__items--titles h4 {
+}
+@media only screen and (max-width:1272px){
+  .zakijate__documnent-inner{
+    padding:10px 270px ;
+  }
+  .zakijate__doc-text > h4{
+    color: #323232;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 10px;
+  }
+  .zakijate__doc-text > p{
+    color: #323232;
+    font-family: Gilroy;
     font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
   }
-
-  .zakajite__items--titles p {
-    font-size: 18px;
+  .div__zkijate-doc1{
+    position: absolute;
+    right: 5px;
+    cursor:zoom-in;
   }
-
-  .title__img {
-    width: 20%;
+  .div__zkijate-doc2{
+    position: absolute;
+    left: 5px;
+     cursor:zoom-in;
   }
 }
-
-@media only screen and (max-width: 1640px) {
-  .zakajite {
-    padding: 70px 175px;
-    background-position: center center;
+@media only screen and (max-width:1157px){
+  .zakajite__wrapper > h2{ 
+  font-size: 32px;
+  line-height: 39px; /* 113.462% */
   }
-  .zakajite__center {
-    flex-wrap: wrap;
+  .zakajite__wrapper > h3{
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 40px;
+  }
+  .zakijate__documnent-inner{
+    padding: 0px ;
+  }
+  .zakijate__doc-text{
+    max-width: 560px;
+  }
+  .div__zkijate-doc1{
+    display: none;
+  }
+  .div__zkijate-doc2{
+   display: none;
+  }
+  .zakijate__document-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width:1100px){
+  .zakajite-section{
+    padding: 70px 50px;
+  }
+  .zakajite__text-inner > h5{
+    color: #FFB800;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 131.818% */
+  letter-spacing: 0.22px;
+  margin-bottom: 10px;
+  }
+  .zakajite__text-inner > p{
+    color: #323232;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 131.818% */
+  letter-spacing: 0.22px;
+  }
+}
+@media only screen and (max-width:1000px){
+  .zakijate__doc-text {
+    max-width: 380px;
+}
+}
+@media only screen and (max-width:790px){
+  .zakajite-section{
+    padding: 50px 20px;
+  }
+  .zakajite__wrap-text{
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
-  .flex {
-    border-bottom: 1px solid gray;
-    padding-bottom: 15px;
+  .zakajite__text-inner{
+    width: 80%;
   }
-  .flex h4 {
-    font-size: 22px;
-  }
-  .flex p {
-    font-size: 22px;
-  }
-  .down__img {
-    position: static;
-  }
-
-  .zakajite__items {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .zakajite__items--images {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  .zakijacte__cost{
+    margin-bottom: 40px;
   }
 }
-
-@media only screen and (max-width: 960px) {
-  .flex {
-    flex-direction: column;
+@media only screen and (max-width:700px){
+  .zakijate__document-img{
+    flex-wrap: wrap;
+    gap: 25px;  
   }
-  .zakajite__items--titles {
+}
+@media only screen and (max-width:660px){
+  .zakajite__wrapper > h2{ 
+    font-size: 28px;
+    line-height: 29px; /* 113.462% */
+    }
+    .zakajite__wrapper > h3{
+      font-size: 20px;
+      line-height: 25px;
+    }
+  .zakijate__document{
+    margin-bottom: 30px;
+  }
+  .zakijate__documnent-inner{
+    flex-direction: column  ;
     text-align: center;
   }
 }
-
-@media only screen and (max-width: 760px) {
-  .zakajite {
-    padding: 25px;
+@media only screen and (max-width:620px){
+  .zakijacte__cost > h4{
+    font-size: 18px;
+    line-height: 25px; /* 135% */
   }
-
-  .zakajite__wrapper h1 {
-    font-size: 36px;
-    line-height: 40px;
+  .zakijacte__cost > h5{
+    font-size: 27px;
+    line-height: 34px; 
+    margin-bottom: 8px;
   }
-
-  .zakajite__wrapper p {
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
-
-  .zakajite__wrapper button {
-    font-size: 22px;
+  .zakijacte__cost > button{
     width: 200px;
-  }
-  .zakajite__down {
-    margin-top: 30px;
-  }
-
-  .zakajite__items--images {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 67px;
+  font-size: 22px;
   }
 }
-@media only screen and (max-width:550px){
-  .zakaj-casursel__div{
-    margin-top: 20px;
-    width: 100% !important;
-    margin-bottom: 0px;
+@media only screen and (max-width:490px){
+  .zakajite__wrapper > h2{ 
+    font-size: 22px;
+    line-height: 29px; /* 113.462% */
+    }
+    .zakajite__wrapper > h3{
+      font-size: 18px;
+      line-height: 25px;
+    }
+  .zakajite-section{
+    padding: 50px 0;
   }
-}
-
-@media only screen and (max-width: 470px) {
-  .zakajite__center--card {
-    width: 280px;
-    padding: 20px 38px;
+  .zakijate__documnent-inner>img{
+    width: 67px;
+    height: 63px;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
-
-  .zakajite__center--card h4 {
-    font-size: 18px;
-    line-height: 25px;
+  .zakajite__text-inner{
+    width: 90%;
   }
-
-  .zakajite__center--card p {
-    font-size: 15px;
-    line-height: 22px;
-    margin: 10px auto;
-  }
-
-  .zakajite__ft h6 {
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  .zakajite__ft p {
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  .zakajite__items {
-    padding: 20px;
-  }
-
-  .zakajite__items--titles h4 {
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  .flex {
-    border: none;
-  }
-
-  .zakajite__items--titles p {
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  .down__img {
-    width: 100%;
+  .zakijate__document-img > img{
+    width: 180px;
+height: 240.732px;
   }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+
 import certificate from "../../assets/Images/png/Zakajite/certificate.png";
 import garant from "../../assets/Images/png/Zakajite/garant.png";
 import down_png from "../../assets/Images/png/Zakajite/down__image.png";
@@ -8,89 +8,61 @@ import "./style.css";
 const Zakajite = () => {
   return (
     <>
-      <section className="zakajite">
-        <div className="container">
+      <section className="zakajite-section">
+         <div className="container">
           <div className="zakajite__wrapper">
-            <h1>Закажите напрямую от производителя</h1>
-            <p className="zakajite__paragraph">
-              Лучшие условия для обладателей BAVARIA на весь срок экслуатации{" "}
-            </p>
-            <div className="zakaj-casursel__div">
-              <ZakajiteModal />
-            </div>
-            <div className="zakajite__center">
-              <div className="zakajite__center--card">
-                <h4>Гарантия 1 год</h4>
-                <p>
-                  Мы предлагаем расширенную гарантию, потому что уверены в
-                  качестве своей продукции на все 100%.
-                </p>
+            <h2>Закажите напрямую от производителя</h2>
+             <h3>Лучшие условия для обладателей BAVARIA на весь срок экслуатации </h3>
+             <div className="zakjite__carusel">
+              <ZakajiteModal/>
+             </div>
+             <div className="zakajite__wrap-text">
+              <div className="zakajite__text-inner">
+                <h5>Гарантия 1 год</h5>
+                 <p>Мы предлагаем расширенную гарантию,потому что уверены в качестве своей продукции на все 100%.</p>
               </div>
-
-              <div className="zakajite__center--card">
-                <h4>Отгрузка в день заказа</h4>
-                <p>
-                  Вы получите <br /> пивоварню <br /> в кратчайшие сроки <br />{" "}
-                  (не более 7 дней).
-                </p>
+              <div className="zakajite__text-inner">
+                <h5>Отгрузка в день заказа</h5>
+                 <p>Вы получите пивоварню в кратчайшие сроки (не более 7 дней).</p>
               </div>
-
-              <div className="zakajite__center--card">
-                <h4>Экономия до 35 %</h4>
-                <p>
-                  Вы не переплачиваете <br /> посредникам <br /> и приобретаете
-                  товары <br /> по актуальным ценам.
-                </p>
+              <div className="zakajite__text-inner">
+                <h5>Экономия до 35 %</h5>
+                 <p>Вы не переплачиваете посредникам и приобретаете товары по актуальным ценам.</p>
               </div>
-            </div>
+             </div>
+               <div className="zakijacte__cost">
+                 <h4>64 290 ₽</h4>
+                 <h5>от 44 990 ₽</h5>
+                 <button>Заказать</button>
+               </div>
+               <div className="zakijate__document">
+                <div className="zakijate__docin">
 
-            <p className="zakajite__sl">
-              <span>64 290 ₽</span>
-              от 44 990 ₽
-            </p>
-
-            <button className="all__btn--hover">Заказать</button>
-
-            <div className="zakajite__down">
-              <div className="zakajite__items">
-                <div className="flex">
-                  <img className="title__img" src={down_png} alt="Down Image" />
-                  <div className="zakajite__items--titles">
-                    <h4>
-                      Декларация о соответствии <br /> и патент
-                    </h4>
-                    <p>
-                      подтверждают высокое качество <br /> и безопасность
-                      эксплуатации <br /> пивоварни “Bavaria”
-                    </p>
+                 <div className="zakijate__documnent-inner">
+                  <div className="div__zkijate-doc1">
+                    <img src={garant} alt="" />
                   </div>
-                </div>
-
-                <div className="zakajite__items--images">
-                  <div>
-                  <img
-                    className="down__img cer"
-                    src={certificate}
-                    alt="Certificate"
-                  />
+                  <div className="div__zkijate-doc2">
+                    <img src={certificate} alt="" />
                   </div>
-                  <img className="down__img gar" src={garant} alt="Garant" />
+                  <img src={down_png} alt="" />
+                  <div className="zakijate__doc-text">
+                    <h4>Декларация о соответствиии патент</h4>
+                    <p>подтверждают высокое качество и безопасность эксплуатации пивоварни “Bavaria”</p>
+                  </div>
+                 </div>
+                 <div className="zakijate__document-img">
+                  <img src={certificate} alt="" />
+                  <img src={garant} alt="" />
+                 </div>
                 </div>
-              </div>
-            </div>
-
-            <div className="zakajite__ft">
-              <h6>Производитель ГК “Геликон Пром”</h6>
-              <p>
-                С 2012 года мы производим качественные товары, используя
-                экологичные технологии производства. Только лучшее — всё
-                оборудование и материалы проходят тщательную проверку. В поиске
-                новых идей, мы постоянно обновляем конструкции производимых
-                товаров.
-              </p>
-            </div>
+               </div>
+               <div className="zakijate__about">
+                <h5>Производитель ГК “Геликон Пром”</h5>
+                <p>С 2012 года мы производим качественные товары, используя экологичные технологии производства. Только лучшее — всё оборудование и материалы проходят тщательную проверку. В поиске новых идей, мы постоянно обновляем конструкции производимых товаров.</p>
+               </div>
           </div>
-        </div>
+         </div>
       </section>
     </>
   );

@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./style.css";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Pagination, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import buttle1 from "../../../assets/Images/png/ybutul1.png";
 import buttle3 from "../../../assets/Images/png/ybutul3.png";

@@ -87,11 +87,13 @@ const Bavariya = () => {
                       Работа через WiFi: <span> {item.vife}</span>
                     </p>
                   </div>
-                  <div className="bavariya-price">
+                   <div>
+                   <div className="bavariya-price">
                     <span className="bavariya-price__new">44 990 ₽</span>
                     <span className="bavariya-price__old">64 290 ₽</span>
                   </div>
                   <button className="all__btn--hover">Заказать</button>
+                   </div>
                 </div>
               </li>
             ))}

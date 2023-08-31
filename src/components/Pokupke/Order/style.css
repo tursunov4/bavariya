@@ -860,7 +860,7 @@
   }
 
   .item-02__images--1 {
-    width: 100%;
+   
     left: 25%;
   }
 
@@ -923,7 +923,6 @@
 
 @media only screen and (max-width: 480px) {
   .item-02__images--1 {
-    width: 100%;
     left: 20%;
   }
 
@@ -990,4 +989,18 @@
   .item-02__images--5 img {
     width: 175px;
   }
+}
+@media only screen and (max-width:350px){
+  .pokupka__wrapper{
+    padding: 20px 0;
+  }
+  .zakazat__right form input{
+    width: 90%;
+    margin: 10px auto;
+  }
+  .zakazat__right {
+    height: auto;
+    width: 100%;
+    margin: 30px auto;
+}
 }

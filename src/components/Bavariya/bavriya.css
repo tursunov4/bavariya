@@ -91,8 +91,7 @@
   align-items: flex-end;
   justify-content: center;
   border-radius: 10px 10px 0 0;
-  padding-bottom: 60px;
-  
+  padding-bottom: 60px;  
 }
 .bavariya-section__product-text {
   position: absolute;
@@ -166,7 +165,7 @@
   text-decoration-line: line-through;
   margin-left: 30px;
 }
-.bavariya-section__product-about > button {
+.bavariya-section__product-about  button {
   border: none;
   display: block;
   background-color: #ffb800;
@@ -192,7 +191,90 @@
   .bavariya-section__product {
     gap: 40px;
   }
+  .bavariya-section__product >li{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .bavariya-section__product-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
+    border-radius: 0;
+  }
+  .bavariya-seciton__product-image {
+    position: relative;
+    width: 50%;
+    height: auto;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 0;
+    padding-bottom: 60px;  
+  }
+  .bavariya__product-text {
+    margin-bottom: 0;
+    text-align: start;
+  }
+  .bavariya__product-text > p {
+    margin-bottom: 15px;
+    color: #323232;
+    text-align: start;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 131.818% */
+    opacity: 0.8;
+  }
+  .bavariya__product-text > p > span {
+    opacity: 1;
+    color: #323232;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
 }
+@media only screen and (max-width:930px){
+  .bavariya-section__product-about  button {
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+  }
+  .bavariya-price__new {
+    font-size: 25px;   
+    line-height: 27px;
+  }
+  .bavariya-price__old {
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 18px;
+  }
+}
+@media only screen and (max-width:720px){
+  .bavariya-section__product >li{
+    flex-direction: column;
+    align-items:center ;
+  }
+  .bavariya-seciton__product-image{
+    border-radius: 10px 10px 0 0;
+    height: 353px;
+    width: 340px;
+  }
+  .bavariya-section__product-about{
+    flex-direction: column;
+    width: 340px;
+    border-radius: 0 0 10px 10px;
+  }
+}
+
 @media only screen and (max-width: 880px) {
   .bavariya-section__text > h2 {
     font-size: 35px;

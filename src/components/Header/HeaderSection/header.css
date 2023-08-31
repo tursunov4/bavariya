@@ -82,11 +82,13 @@
   margin-bottom: 40px;
 }
 .text-wrapper__about > li > h6 {
-  font-family: "Roboto Slab";
+  color: var(--yellow, #FFB800);
+  font-family: Gilroy;
   font-size: 22px;
-  line-height: 28px;
-  font-weight: 900;
-  color: #ffb800;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 127.273% */
+  letter-spacing: 0.22px;
   margin-bottom: 10px;
 }
 .text-wrapper__about > li > p {
@@ -259,6 +261,10 @@ text-transform: uppercase;
   }
   .text-wrapper__about{
     justify-content: space-around ;
+    gap: 18px;
+  }
+  .text-wrapper__about >li{
+   width:290px ;
   }
   .img-wrapper__box{
     justify-content: center;
