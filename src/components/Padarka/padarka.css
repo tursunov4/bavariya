@@ -2,6 +2,11 @@
   background-color: #ececec;
   padding: 100px 0;
 }
+.padarka-section__mainwrap{
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
 .padarka-section__wrapper {
   padding: 100px 94px 50px;
   border-radius: 10px 10px 0 0;

@@ -89,6 +89,7 @@ letter-spacing: 0.22px;
   margin-bottom: 10px;
 }
 .zakijacte__cost > button{
+  cursor: pointer;
   border: none;
   outline: none;
   display: block;

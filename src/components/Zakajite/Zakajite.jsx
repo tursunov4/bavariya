@@ -32,7 +32,7 @@ const Zakajite = () => {
                <div className="zakijacte__cost">
                  <h4>64 290 ₽</h4>
                  <h5>от 44 990 ₽</h5>
-                 <button>Заказать</button>
+                 <button className="header__btn--hover1">Заказать</button>
                </div>
                <div className="zakijate__document">
                 <div className="zakijate__docin">

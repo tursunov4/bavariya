@@ -11,6 +11,8 @@ const Padarka = () => {
     <>
       <section className="paraka-section">
         <div className="container">
+          <div className="padarka-section__mainwrap">
+
           <div className="padarka-section__wrapper">
             <h2>Получите 3 полезных подарка</h2>
             <h4>при заказе с 10 на 11 августа</h4>
@@ -211,6 +213,7 @@ const Padarka = () => {
               </div>
               <button className="all__btn--hover">Заказать</button>
             </div>
+          </div>
           </div>
         </div>
       </section>
