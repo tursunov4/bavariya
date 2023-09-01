@@ -157,7 +157,13 @@
     height: 350px;
   }
 }
-
+@media only screen and (max-width:730px){
+  .youtubevideo-wrapper__video > img {
+    width: 50px;
+    height: 35px;
+    left: 43%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .youtubevideo-wrapper__text {
     background-image: none;

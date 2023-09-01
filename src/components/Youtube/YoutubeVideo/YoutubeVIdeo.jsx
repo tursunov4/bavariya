@@ -42,7 +42,7 @@ const YoutubeVIdeo = () => {
         <img src={youtubeimg} alt="" />
       </div>
       <div className='youtubevideo-wrapper__video'>
-      <img src={youtubeimg} alt="" />
+        <img src={youtubeimg} alt="" />
       </div>
      </div>
      
