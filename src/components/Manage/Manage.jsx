@@ -1,10 +1,10 @@
 import "./style.css";
-import phonetext from '../../assets/Images/png/mangephone-item.png'
-import phone from '../../assets/Images/png/mangephone.png'
-import wife from '../../assets/Images/png/mangewife.png'
-import arrow from '../../assets/Images/png/mange-arrow.png'
-import arrow2 from '../../assets/Images/png/mange-arrow.png'
-import mangeelip from '../../assets/Images/png/mangeelip.png'
+import phonetext from '../../assets/Images/png/mangephone-item.webp'
+import phone from '../../assets/Images/png/mangephone.webp'
+import wife from '../../assets/Images/png/mangewife.webp'
+import arrow from '../../assets/Images/png/mange-arrow.webp'
+import arrow2 from '../../assets/Images/png/mange-arrow2.webp'
+import mangeelip from '../../assets/Images/png/mangeelip.webp'
 import { useState } from "react";
 const Manage = () => {
   const [type ,setType] = useState(false)

@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import rasm from "../../../assets/Images/svg/pokupka__left.svg";
-import center from "../../../assets/Images/png/pokupke_img.png";
-import b1 from "../../../assets/Images/png/Pokupka responsive images/barrel1.png";
-import b2 from "../../../assets/Images/png/Pokupka responsive images/barrel2.png";
-import b3 from "../../../assets/Images/png/Pokupka responsive images/barrel3.png";
-import b4 from "../../../assets/Images/png/Pokupka responsive images/barrel4.png";
-import b5 from "../../../assets/Images/png/Pokupka responsive images/bareel5.png";
+import b1 from "../../../assets/Images/png/Modal Image/barrel1.webp";
+import b2 from "../../../assets/Images/png/Modal Image/barrel2.webp";
+import b3 from "../../../assets/Images/png/Modal Image/barrel3.webp";
+import b4 from "../../../assets/Images/png/Modal Image/barrel4.webp";
+import b5 from "../../../assets/Images/png/Modal Image/bareel5.webp";
 
 import "./style.css";
 const Ordered = () => {

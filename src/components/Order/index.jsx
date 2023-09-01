@@ -1,4 +1,4 @@
-import phone from "../../assets/Images/png/order_phone.png";
+import phone from "../../assets/Images/png/order_phone.webp";
 import "./style.css";
 
 const index = () => {

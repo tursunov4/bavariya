@@ -1,6 +1,6 @@
 import  { useState } from "react";
 import "./style.css";
-import bvcard from '../../assets/Images/png/bvcard.png'
+import bvcard from '../../assets/Images/png/Kans/bvcard.webp'
 const Bvcards = () => {
   const [open,setOpen] = useState(false)
   const [open2,setOpen2] = useState(false)

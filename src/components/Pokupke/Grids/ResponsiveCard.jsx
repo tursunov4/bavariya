@@ -1,15 +1,15 @@
 import React from "react";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import {Swiper,SwiperSlide} from 'swiper/react'
-import P1 from "../../../assets/Images/png/Pokupka responsive images/P1.png";
-import P2 from "../../../assets/Images/png/Pokupka responsive images/P2.png";
-import P3 from "../../../assets/Images/png/Pokupka responsive images/P3.png";
-import P4 from "../../../assets/Images/png/Pokupka responsive images/P4.png";
-import P5 from "../../../assets/Images/png/Pokupka responsive images/P5.png";
-import P6 from "../../../assets/Images/png/Pokupka responsive images/P6.png";
-import P7 from "../../../assets/Images/png/Pokupka responsive images/P7.png";
-import P8 from "../../../assets/Images/png/Pokupka responsive images/P8.png";
-import P9 from "../../../assets/Images/png/Pokupka responsive images/P9.png";
+import P1 from "../../../assets/Images/png/Pokupka responsive images/P1.webp";
+import P2 from "../../../assets/Images/png/Pokupka responsive images/P2.webp";
+import P3 from "../../../assets/Images/png/Pokupka responsive images/P3.webp";
+import P4 from "../../../assets/Images/png/Pokupka responsive images/P4.webp";
+import P5 from "../../../assets/Images/png/Pokupka responsive images/P5.webp";
+import P6 from "../../../assets/Images/png/Pokupka responsive images/P6.webp";
+import P7 from "../../../assets/Images/png/Pokupka responsive images/P7.webp";
+import P8 from "../../../assets/Images/png/Pokupka responsive images/P8.webp";
+import P9 from "../../../assets/Images/png/Pokupka responsive images/P9.webp";
 import prev from '../../../assets/Images/svg/prevblack.svg'
 import next from '../../../assets/Images/svg/nextblack.svg'
 import "./style.css";

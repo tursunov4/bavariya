@@ -1,6 +1,6 @@
 .youtubevideo-text{
     padding: 30px 10px 300px 10px;
-    background-image: url("../../../assets/Images/png/bootle2.png") ,url("../../../assets/Images/png/bug_doy.webp"), url("../../../assets/Images/png/bagroundyoutube2.webp");
+    background-image: url("../../../assets/Images/png/Youtube/bootle2.webp") ,url("../../../assets/Images/png/bug_doy.webp"), url("../../../assets/Images/png/bagroundyoutube2.webp");
     background-repeat: no-repeat;
     background-position-x: right, right, left;
     background-position-y: bottom ,30%,center;

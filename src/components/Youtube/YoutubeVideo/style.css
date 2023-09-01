@@ -89,13 +89,13 @@
   left: 40%;
 }
 .youtubevideo-wrapper__video:nth-child(1) {
-  background-image: url("../../../assets/Images/png/youtube1.png");
+  background-image: url("../../../assets/Images/png/Youtube/youtube1.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .youtubevideo-wrapper__video:nth-child(2) {
-  background-image: url("../../../assets/Images/png/youtube2.png");
+  background-image: url("../../../assets/Images/png/Youtube/youtube2.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

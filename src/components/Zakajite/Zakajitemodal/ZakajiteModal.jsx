@@ -1,6 +1,7 @@
 import './zakaj.css'
-import zakaj1 from '../../../assets/Images/png/zakaj1.png'
-import zakaj2 from '../../../assets/Images/png/zakaj2.png'
+import zakaj1 from '../../../assets/Images/png/zakaj1.webp'
+import zakaj2 from '../../../assets/Images/png/zakaj2.webp'
+import zakaj3 from '../../../assets/Images/png/zakaj2.webp'
 import { Navigation, Pagination, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import prev from "../../../assets/Images/svg/prev.svg";
@@ -54,12 +55,12 @@ const ZakajiteModal = () => {
            </SwiperSlide>
            <SwiperSlide >
             <div className='zakaj__img'>
-            <img src={zakaj2} alt="" />
+            <img src={zakaj1} alt="" />
             </div>
            </SwiperSlide>
            <SwiperSlide >
             <div className='zakaj__img'>
-            <img src={zakaj2} alt="" />
+            <img src={zakaj3} alt="" />
             </div>
            </SwiperSlide>
            <SwiperSlide >

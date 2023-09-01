@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./style.css";
 import Ordered from "./Order/Ordered";
 import Images from "./Grids/Images";

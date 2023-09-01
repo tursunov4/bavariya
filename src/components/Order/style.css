@@ -1,12 +1,12 @@
 .order {
-  background-image: url("../../assets/Images/png/order_background.jpg");
+  background-image: url("../../assets/Images/png/order_background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 234px 0;
 }
 
 .order_wrapper {
-  background-image: url("../../assets/Images/png/order_wrapper_background.png");
+  background-image: url("../../assets/Images/png/order_wrapper_background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 300px 300px;

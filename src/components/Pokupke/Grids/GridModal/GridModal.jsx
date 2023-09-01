@@ -10,8 +10,8 @@ const GridModal = ({modal, setModal, children}) => {
       }
     if(modal){
         return (
-          <div id='modal3'  class="modal3">
-          <div class="modal-content3">
+          <div id='modal3'  className="modal3">
+          <div className="modal-content3">
           <img onClick={()=>setModal(false)} className='modal-exit3' src={Exit} alt="" />
             {
               children

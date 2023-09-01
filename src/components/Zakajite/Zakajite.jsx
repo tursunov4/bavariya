@@ -1,7 +1,7 @@
 
-import certificate from "../../assets/Images/png/Zakajite/certificate.png";
-import garant from "../../assets/Images/png/Zakajite/garant.png";
-import down_png from "../../assets/Images/png/Zakajite/down__image.png";
+import certificate from "../../assets/Images/png/certificate.webp";
+import garant from "../../assets/Images/png/Zakajite/garant.webp";
+import down_png from "../../assets/Images/png/Zakajite/down__image.webp";
 import "./style.css";
 import ZakajiteModal from "./Zakajitemodal/ZakajiteModal";
 const Zakajite = () => {

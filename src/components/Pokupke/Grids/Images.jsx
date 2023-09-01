@@ -1,22 +1,22 @@
 import  { useState } from "react";
-import P1 from "../../../assets/Images/png/P1.png";
-import P2 from "../../../assets/Images/png/P2.png";
-import P3 from "../../../assets/Images/png/P3.png";
-import P4 from "../../../assets/Images/png/P4.png";
-import P5 from "../../../assets/Images/png/P5.png";
-import P6 from "../../../assets/Images/png/P6.png";
-import P7 from "../../../assets/Images/png/P7.png";
-import P8 from "../../../assets/Images/png/P8.png";
-import P9 from "../../../assets/Images/png/P9.png";
-import imgitem from "../../../assets/Images/png/imgitem1.png"
-import imgitem2 from "../../../assets/Images/png/imgitem2.png"
-import imgitem3 from "../../../assets/Images/png/imgitem3.png"
-import imgitem4 from "../../../assets/Images/png/imgitem4.png"
-import imgitem5 from "../../../assets/Images/png/imgitem5.png"
-import imgitem6 from "../../../assets/Images/png/imgitem6.png"
-import imgitem7 from "../../../assets/Images/png/imgitem7.png"
-import imgitem8 from "../../../assets/Images/png/imgitem8.png"
-import imgitem9 from "../../../assets/Images/png/imgitem9.png"
+import P1 from "../../../assets/Images/png/Pokupka responsive images/P1.webp";
+import P2 from "../../../assets/Images/png/Pokupka responsive images/P2.webp";
+import P3 from "../../../assets/Images/png/Pokupka responsive images/P3.webp";
+import P4 from "../../../assets/Images/png/Pokupka responsive images/P4.webp";
+import P5 from "../../../assets/Images/png/Pokupka responsive images/P5.webp";
+import P6 from "../../../assets/Images/png/Pokupka responsive images/P6.webp";
+import P7 from "../../../assets/Images/png/Pokupka responsive images/P7.webp";
+import P8 from "../../../assets/Images/png/Pokupka responsive images/P8.webp";
+import P9 from "../../../assets/Images/png/Pokupka responsive images/P9.webp";
+import imgitem from "../../../assets/Images/png/Pokupka responsive images/imgitem1.webp"
+import imgitem2 from "../../../assets/Images/png/Pokupka responsive images/imgitem2.webp"
+import imgitem3 from "../../../assets/Images/png/Pokupka responsive images/imgitem3.webp"
+import imgitem4 from "../../../assets/Images/png/Pokupka responsive images/imgitem4.webp"
+import imgitem5 from "../../../assets/Images/png/Pokupka responsive images/imgitem5.webp"
+import imgitem6 from "../../../assets/Images/png/Pokupka responsive images/imgitem6.webp"
+import imgitem7 from "../../../assets/Images/png/Pokupka responsive images/imgitem7.webp"
+import imgitem8 from "../../../assets/Images/png/Pokupka responsive images/imgitem8.webp"
+import imgitem9 from "../../../assets/Images/png/Pokupka responsive images/imgitem9.webp"
 import ResponsiveCard from "./ResponsiveCard";
 import GridModal from "./GridModal/GridModal";
 
@@ -38,22 +38,22 @@ const Images = () => {
             num===1 ? <img src={imgitem} alt="" /> :""
          }
          {
-            num===2 ? <img src={imgitem2} alt="" /> :""
+            num===2 ? <img src={imgitem5} alt="" /> :""
          }
          {
-            num===3 ? <img src={imgitem3} alt="" /> :""
+            num===3 ? <img src={imgitem6} alt="" /> :""
          }
          {
-            num===4 ? <img src={imgitem5} alt="" /> :""
+            num===4 ? <img src={imgitem2} alt="" /> :""
          }
          {
-            num===5 ? <img src={imgitem6} alt="" /> :""
+            num===5 ? <img src={imgitem3} alt="" /> :""
          }
          {
-            num===6 ? <img src={imgitem4} alt="" /> :""
+            num===6 ? <img src={imgitem7} alt="" /> :""
          }
          {
-            num===7 ? <img src={imgitem7} alt="" /> :""
+            num===7 ? <img src={imgitem4} alt="" /> :""
          }
          {
             num===8 ? <img src={imgitem8} alt="" /> :""
@@ -66,7 +66,7 @@ const Images = () => {
     </GridModal>
       <div className="images">
         <h1>Реальные фото пивоварни BAVARIA</h1>
-        <div class="pokupka__images">
+        <div className="pokupka__images">
           <div onClick={()=>openModal(1)} id="item-0">
             <img src={P1} alt="rasm" />
           </div>

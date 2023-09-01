@@ -1,18 +1,18 @@
-import React, { useState } from 'react'
-import phone from '../../assets/Images/png/phone.png'
+import  { useState } from 'react'
+import phone from '../../assets/Images/png/Otziv/phone.webp'
 import user from "../../assets/Images/svg/User.svg"
 import "./style.css"
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination,  A11y } from 'swiper/modules';
 import {Swiper,SwiperSlide} from 'swiper/react'
 import prev from "../../assets/Images/svg/prevblack.svg"
 import next from '../../assets/Images/svg/nextblack.svg'
-import telegram1 from '../../assets/Images/png/telegram1.png'
-import telegram2 from '../../assets/Images/png/telegram2.png'
-import telegram3 from '../../assets/Images/png/telegram3.png'
-import telegram4 from '../../assets/Images/png/telegram4.png'
-import telegram5 from '../../assets/Images/png/telegram5.png'
-import telegram6 from '../../assets/Images/png/telegram6.png'
-import telegram7 from '../../assets/Images/png/telegram7.png'
+import telegram1 from '../../assets/Images/png/Otziv/telegram1.webp'
+import telegram2 from '../../assets/Images/png/Otziv/telegram2.webp'
+import telegram3 from '../../assets/Images/png/Otziv/telegram3.webp'
+import telegram4 from '../../assets/Images/png/Otziv/telegram4.webp'
+import telegram5 from '../../assets/Images/png/Otziv/telegram5.webp'
+import telegram6 from '../../assets/Images/png/Otziv/telegram6.webp'
+import telegram7 from '../../assets/Images/png/Otziv/telegram7.webp'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';

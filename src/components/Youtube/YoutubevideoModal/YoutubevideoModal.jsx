@@ -1,7 +1,6 @@
 import React from "react";
-import img1 from "../../../assets/Images/png/Modal Image/Image 1.png";
-import img2 from "../../../assets/Images/png/Modal Image/Image 2.png";
-import img3 from "../../../assets/Images/png/Modal Image/Image 3.png";
+import img1 from "../../../assets/Images/png/Modal Image/Image 1.webp";
+import img2 from "../../../assets/Images/png/Modal Image/Image 2.webp";
 import Exit from '../../../assets/Images/svg/exit.svg'
 import "./sytle.css";
 const YoutubevideoModal = ({modal , setModal}) => {

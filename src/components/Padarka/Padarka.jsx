@@ -1,8 +1,7 @@
 import  { useState } from 'react'
 import './padarka.css'
-import padarka1 from '../../assets/Images/png/padarka-list1.png'
+import padarka1 from '../../assets/Images/png/padarka-list1.webp'
 import person from '../../assets/Images/svg/person.svg'
-
 import contact from '../../assets/Images/svg/contact.svg'
 const Padarka = () => {
   const [number , setNumber] = useState(1)

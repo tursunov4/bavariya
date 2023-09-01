@@ -1,11 +1,13 @@
 import  { useState } from 'react'
 import './bavriya.css'
-import product1 from "../../assets/Images/png/product1.png"
-import product2 from '../../assets/Images/png/product2.png'
-import product3 from '../../assets/Images/png/product3.png'
-import wpro from '../../assets/Images/png/wpro.png'
-import wpro2 from '../../assets/Images/png/wpro2.png'
-import wpro3 from '../../assets/Images/png/wpro3.png'
+import product1 from "../../assets/Images/png/Bavariya/product1.webp"
+import product2 from "../../assets/Images/png/Bavariya/product2.webp"
+import product3 from "../../assets/Images/png/Bavariya/product3.webp"
+
+import wpro from '../../assets/Images/png/Bavariya/wpro.webp'
+import wpro2 from '../../assets/Images/png/Bavariya/wpro2.webp'
+import wpro3 from '../../assets/Images/png/Bavariya/wpro3.webp'
+
 
 const Bavariya = () => {
     const [wife , serWife] = useState(true)

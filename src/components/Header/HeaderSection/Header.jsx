@@ -1,9 +1,9 @@
 import  { useState } from 'react'
 import './header.css'
-import play from '../../../assets/Images/png/play.png'
+import play from '../../../assets/Images/png/play.webp'
 import raspochka from '../../../assets/Images/svg/raspochka.svg'
-import bar from '../../../assets/Images/png/headerbar.png'
-import bar2 from '../../../assets/Images/png/headerbarmobile.png'
+import bar from '../../../assets/Images/png/headerbar.webp'
+import bar2 from '../../../assets/Images/png/headerbarmobile.webp'
 import Headermodal from '../Headermodal/Headermodal'
 import Headertop from '../Headertop/Headertop'
 const Headers = () => {

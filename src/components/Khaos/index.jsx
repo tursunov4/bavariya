@@ -1,5 +1,5 @@
-import React from "react";
-import image from "../../assets/Images/png/bar 1.png";
+
+import image from "../../assets/Images/png/bar 1.webp";
 import "./style.css";
 
 const index = () => {
