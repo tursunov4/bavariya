@@ -37,12 +37,12 @@ const ZakajiteModal = () => {
          onSlideChange={() => console.log("slide change")}
        >
          <img
-           className="youtubecarusel__wrapper-prev"
+           className="zakaj__wrapper-prev"
            src={prev}
            alt="sdfasf"
          />
          <img
-           className="youtubecarusel__wrapper-next"
+           className="zakaj__wrapper-next"
            src={next}
            alt="sdfasf"
          />
