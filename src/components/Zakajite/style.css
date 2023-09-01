@@ -160,6 +160,18 @@ margin-bottom: 10px;
 .zakijate__document-img >img{
   cursor: zoom-in;
 }
+.div__zkijate-doc1 > img:hover{
+  transform: scale(1.1);
+  transition: all 0.6s;
+}
+.div__zkijate-doc2 > img:hover{
+  transform: scale(1.1);
+  transition: all 0.6s;
+}
+.zakijate__document-img >img:hover{
+  transform: scale(1.1);
+  transition: all 0.6s;
+}
 .zakijate__about > h5{
   color: rgba(255, 255, 255, 0.70);
 text-align: center;
