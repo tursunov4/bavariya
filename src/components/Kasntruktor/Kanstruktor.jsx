@@ -20,7 +20,7 @@ const Kanstruktor = () => {
   const [modal, setModal] = useState(false);
   const [numactive, setNumactive] = useState(1);
   const [num, setNum] = useState(1);
-  const data = [
+  let data = [
     {
       id: 1,
       name: "Крышка",
@@ -66,6 +66,54 @@ const Kanstruktor = () => {
       img: kanstitem7,
     },
   ];
+
+    let data2=[
+      {
+        id: 2,
+        name: "Прижимная планка",
+        title: "Обеспечивает надёжную фиксацию бака.",
+        img: kanstitem2,
+      },
+      {
+        id: 1,
+        name: "Крышка",
+        title: "Изолирует процесс пивоварения от внешней среды.",
+        img: kanstitem,
+      },
+      {
+        id: 3,
+        name: "Два фильтрующих сита и сетка",
+        title:
+          "2 сита и сетка необходимы для того,чтобы качественно фильтровать солод.",
+        img: kanstitem3,
+      },
+      {
+        id: 4,
+        name: "Заторный бак",
+        title: "Необходим для затирания солода.",
+        img: kanstitem4,
+      },
+      {
+        id: 5,
+        name: "Сусловарочный котел",
+        title: "Используется для кипячения сусла вместе с хмелем.",
+        img: kanstitem5,
+      },
+      {
+        id: 6,
+        name: "Кран для слива сусла",
+        title:
+          "Кран на ½ дюйма позволяет быстро и точно сливать сусло в подготовленную ёмкость.",
+        img: kanstitem6,
+      },
+      {
+        id: 7,
+        name: "Блок управления",
+        title: "Необходим для контроля процесса пивоварения.",
+        img: kanstitem7,
+      },
+    ];
+ 
   const aboutdata = [
     {
       name: "Крышка",
@@ -575,7 +623,9 @@ const Kanstruktor = () => {
               <div className="kans-next">
                 <img src={next} alt="" />
               </div>
-              {data.map((item, index) => (
+              {  
+            
+              data.map((item, index) => (
                 <SwiperSlide key={index}>
                   <div className="kansturuktor-catusel__item">
                     <p className="kanstruktor-name">{item.name}</p>
@@ -585,8 +635,8 @@ const Kanstruktor = () => {
                       <img src={item.img} alt="" />
                     </div>
                   </div>
-                </SwiperSlide>
-              ))}
+                </SwiperSlide>))
+}
             </Swiper>
           </div>
         </div>
