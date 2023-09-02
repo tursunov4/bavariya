@@ -52,13 +52,16 @@ const Bavariya = () => {
             <button
               onClick={() => serWife(false)}
               className={
-                  "bavariya-section__quiz-button" }
+                wife ? 
+                  "bavariya-section__quiz-button" 
+                  : 'bavariya-section__quiz-avtive'
+                }
             >
               Без WiFi
             </button>
             <button
               onClick={() => serWife(true)}
-              className={"bavariya-section__quiz-avtive"      }
+              className={ wife ?"bavariya-section__quiz-avtive" :    "bavariya-section__quiz-button"   }
             >
               {" "}
               С WiFi

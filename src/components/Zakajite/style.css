@@ -7,6 +7,7 @@
   background-color: black;
 }
 .zakajite__wrap-text{
+  padding: 0 4.5%;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -33,6 +34,7 @@ margin-bottom: 20px;
   margin-bottom: 40px;
 }
 .zakajite__text-inner{
+
   width: 30%;
   padding: 20px;
   text-align: center;
@@ -300,6 +302,7 @@ margin-bottom: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0;
   }
   .zakajite__text-inner{
     width: 80%;

@@ -177,7 +177,7 @@ background-blend-mode: normal, multiply, normal;
 
 @media only screen and (max-width: 1097px) {
   footer {
-    padding: 20px;
+    padding: 50px 20px 80px 20px;
     height: 530px;
   }
   .footer_wrap_top {
@@ -261,7 +261,7 @@ background-blend-mode: normal, multiply, normal;
 
 @media only screen and (max-width: 538px) {
   footer {
-    height: 800px;
+    height: auto;
   }
 
   .azd {

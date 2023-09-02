@@ -30,7 +30,7 @@ margin-bottom: 50px;
   justify-content: space-between;
 }
 .mange__images1{
-  margin-left: 10px;
+  margin-left: 60px;
   position: relative;
   width: 578px;
 height: 591px;
@@ -63,6 +63,7 @@ overflow: hidden;
   display: none;
 }
 .mange__imge3{
+  margin-right: 30px;
   width: 458px;
 height: 458px;
   border-radius: 50%;
@@ -278,7 +279,7 @@ border-radius: 4px;
 .mange__costtd{
   border: none !important;
 }
-@media only screen and (max-width:1225px){
+@media only screen and (max-width:1275px){
   
 .manage{
   padding: 70px 0;
@@ -322,7 +323,7 @@ border-radius: 4px;
    padding: 10px;
   }
 }
-@media only screen and (max-width:970px){
+@media only screen and (max-width:1020px){
   .mange__cost{
     font-size: 30px;
     line-height: 37px;
@@ -334,7 +335,7 @@ border-radius: 4px;
     height: 70px;
     }
 }
-@media only screen and (max-width:912px){
+@media only screen and (max-width:962px){
   .mange__wrapper-text td{
   font-size: 18px !important;
   }
@@ -362,7 +363,7 @@ border-radius: 4px;
   }
  
 }
-@media only screen and (max-width:840px){
+@media only screen and (max-width:890px){
   .mange__tablebtn{
     display: block; 
     width: 180px;
@@ -375,7 +376,7 @@ border-radius: 4px;
     }
  
 }
-@media only screen and (max-width:750px){
+@media only screen and (max-width:800px){
   .mobile__dnone{
     display: none;
   }
@@ -408,7 +409,7 @@ border-radius: 4px;
     line-height: 29px;
     }
 }
-@media only screen and (max-width:695px){
+@media only screen and (max-width:745px){
   .mange__images1{
     margin-left: 0;
     width: 240px;
@@ -431,7 +432,7 @@ border-radius: 4px;
   }
 
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:550px){
   .manage{
     padding: 40px 0;
   }

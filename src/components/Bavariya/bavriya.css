@@ -33,11 +33,12 @@
   margin-bottom: 21px;
 }
 .bavariya-section__quiz-button {
+  width: 183px;
   outline: none;
   border: 1px solid #323232;
   border-radius: 70px;
   cursor: pointer;
-  padding: 15px 47px;
+  padding: 15px 0px;
   color: #323232;
   font-family: Inter-Regular;
   font-size: 22px;
@@ -59,12 +60,13 @@
 }
 
 .bavariya-section__quiz-avtive {
+  width: 183px;
   border: none;
   background-color: #ffb800;
   outline: none;
   border-radius: 70px;
   cursor: pointer;
-  padding: 15px 47px;
+  padding: 15px 0px;
   color: #323232;
   font-family: Inter;
   font-size: 22px;
@@ -319,8 +321,9 @@
     cursor: pointer;
   }
   .bavariya-section__quiz-button {
+    width: 113px;
     border-radius: 70px;
-    padding: 10px 20px;
+    padding: 10px 0px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -328,7 +331,8 @@
   }
   .bavariya-section__quiz-avtive {
     border-radius: 70px;
-    padding: 10px 20px;
+    width: 113px;
+    padding: 10px 0px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

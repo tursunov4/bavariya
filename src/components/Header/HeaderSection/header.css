@@ -277,6 +277,7 @@ text-transform: uppercase;
     border-radius: 4px;
     font-size: 20px;
     height: 67px;
+   
   
   }
   .img-wrapper__raspochka2 {
@@ -284,6 +285,7 @@ text-transform: uppercase;
     padding: 20px;  
     font-size: 20px;
     height: 67px;
+    gap: 5px;
   }
   .img-wrapper__box-text > del {
     font-size: 16px;

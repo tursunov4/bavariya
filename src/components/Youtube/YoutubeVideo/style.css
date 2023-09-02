@@ -166,8 +166,9 @@
 }
 @media only screen and (max-width: 600px) {
   .youtubevideo-wrapper__text {
-    background-image: none;
+    background-image: none !important;
   }
+
   .youtubevideo-wrapper__text > h4 {
     text-align: center;
   }
@@ -180,6 +181,20 @@
     gap: 20px;
     margin-bottom: 20px;
   }
+  .youtubevideo-wrapper__video:nth-child(2) {
+    background-image: url(/src/assets/Images/png/Youtube/youtube2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+  .youtubevideo-wrapper__video:nth-child(1) {
+    background-image: url(/src/assets/Images/png/Youtube/youtube2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
   .youtubevideo-wrapper__video {
     width: 100%;
   }
