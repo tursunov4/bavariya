@@ -578,7 +578,7 @@ const Kanstruktor = () => {
               <div className="kans-next">
                 <img src={next} alt="" />
               </div>
-              {  
+              {/* {  
             
               data.map((item, index) => (
                 <SwiperSlide key={index}>
@@ -590,8 +590,19 @@ const Kanstruktor = () => {
                       <img src={item.img} alt="" />
                     </div>
                   </div>
-                </SwiperSlide>))
-}
+                </SwiperSlide>
+                ))
+                 } */}
+                <SwiperSlide>
+                  <div className="kansturuktor-catusel__item">
+                    <p className="kanstruktor-name">Крышка</p>
+                    <h5>Изолирует процесс пивоварения от внешней среды.</h5>
+                    <h6 onClick={() => openModal(0)}>Характеристики</h6>
+                    <div className="kans-carusel__img1">
+                      <img src={kanstitem} alt="" />
+                    </div>
+                  </div>
+                </SwiperSlide>
             </Swiper>
           </div>
         </div>

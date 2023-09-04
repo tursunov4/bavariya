@@ -16,21 +16,21 @@ const Bavariya = () => {
         litr:'10 литров',
         litr2:'30 литров',
         ves :'13,7 кг',
-        vife:wife ? 'нет': 'да',
+        vife:wife ?'да' : 'нет',
         motor :'1,5 кВт'
         },
         {img:wife ? product2 : wpro2  ,
          litr:'30 литров',
          litr2:'50 литров',
          ves :'16,3 кг',
-         vife:wife ? 'нет': 'да',
+         vife:wife ?'да' : 'нет',
          motor :'2,8 кВт'
         },
         {img:wife ? product3 : wpro3  ,
         litr:'50 литров',
         litr2:'70 литров',
         ves :'25,5 кг',
-        vife:wife ? 'нет': 'да',
+        vife:wife ?'да' : 'нет',
         motor :'3,2 кВт'
         }
     ]
