@@ -83,7 +83,7 @@
  height: 207px;
 }
 
-@media only screen and (max-width: 1900px) {
+
   .order {
     padding: 170px 0;
   }
@@ -106,7 +106,7 @@
   .order_items_btn button {
     font-size: 30px;
   }
-}
+
 
 @media only screen and (max-width: 1300px) {
   .order_items img {
