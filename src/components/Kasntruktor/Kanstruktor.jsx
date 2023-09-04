@@ -66,6 +66,287 @@ const Kanstruktor = () => {
       img: kanstitem7,
     },
   ];
+  let data2 = [
+    {
+      id: 2,
+      name: "Прижимная планка",
+      title: "Обеспечивает надёжную фиксацию бака.",
+      img: kanstitem2,
+    },
+    {
+      id: 1,
+      name: "Крышка",
+      title: "Изолирует процесс пивоварения от внешней среды.",
+      img: kanstitem,
+    },
+  
+    {
+      id: 3,
+      name: "Два фильтрующих сита и сетка",
+      title:
+        "2 сита и сетка необходимы для того,чтобы качественно фильтровать солод.",
+      img: kanstitem3,
+    },
+    {
+      id: 4,
+      name: "Заторный бак",
+      title: "Необходим для затирания солода.",
+      img: kanstitem4,
+    },
+    {
+      id: 5,
+      name: "Сусловарочный котел",
+      title: "Используется для кипячения сусла вместе с хмелем.",
+      img: kanstitem5,
+    },
+    {
+      id: 6,
+      name: "Кран для слива сусла",
+      title:
+        "Кран на ½ дюйма позволяет быстро и точно сливать сусло в подготовленную ёмкость.",
+      img: kanstitem6,
+    },
+    {
+      id: 7,
+      name: "Блок управления",
+      title: "Необходим для контроля процесса пивоварения.",
+      img: kanstitem7,
+    },
+  ];
+  let data3 = [
+    {
+      id: 3,
+      name: "Два фильтрующих сита и сетка",
+      title:
+        "2 сита и сетка необходимы для того,чтобы качественно фильтровать солод.",
+      img: kanstitem3,
+    },
+    {
+      id: 2,
+      name: "Прижимная планка",
+      title: "Обеспечивает надёжную фиксацию бака.",
+      img: kanstitem2,
+    },
+    {
+      id: 1,
+      name: "Крышка",
+      title: "Изолирует процесс пивоварения от внешней среды.",
+      img: kanstitem,
+    },
+  
+   
+    {
+      id: 4,
+      name: "Заторный бак",
+      title: "Необходим для затирания солода.",
+      img: kanstitem4,
+    },
+    {
+      id: 5,
+      name: "Сусловарочный котел",
+      title: "Используется для кипячения сусла вместе с хмелем.",
+      img: kanstitem5,
+    },
+    {
+      id: 6,
+      name: "Кран для слива сусла",
+      title:
+        "Кран на ½ дюйма позволяет быстро и точно сливать сусло в подготовленную ёмкость.",
+      img: kanstitem6,
+    },
+    {
+      id: 7,
+      name: "Блок управления",
+      title: "Необходим для контроля процесса пивоварения.",
+      img: kanstitem7,
+    },
+  ];
+  let data4 = [
+    {
+      id: 4,
+      name: "Заторный бак",
+      title: "Необходим для затирания солода.",
+      img: kanstitem4,
+    },
+    {
+      id: 3,
+      name: "Два фильтрующих сита и сетка",
+      title:
+        "2 сита и сетка необходимы для того,чтобы качественно фильтровать солод.",
+      img: kanstitem3,
+    },
+    {
+      id: 2,
+      name: "Прижимная планка",
+      title: "Обеспечивает надёжную фиксацию бака.",
+      img: kanstitem2,
+    },
+    {
+      id: 1,
+      name: "Крышка",
+      title: "Изолирует процесс пивоварения от внешней среды.",
+      img: kanstitem,
+    },
+    {
+      id: 5,
+      name: "Сусловарочный котел",
+      title: "Используется для кипячения сусла вместе с хмелем.",
+      img: kanstitem5,
+    },
+    {
+      id: 6,
+      name: "Кран для слива сусла",
+      title:
+        "Кран на ½ дюйма позволяет быстро и точно сливать сусло в подготовленную ёмкость.",
+      img: kanstitem6,
+    },
+    {
+      id: 7,
+      name: "Блок управления",
+      title: "Необходим для контроля процесса пивоварения.",
+      img: kanstitem7,
+    },
+  ];
+  let data5 = [
+    {
+      id: 5,
+      name: "Сусловарочный котел",
+      title: "Используется для кипячения сусла вместе с хмелем.",
+      img: kanstitem5,
+    },
+    {
+      id: 4,
+      name: "Заторный бак",
+      title: "Необходим для затирания солода.",
+      img: kanstitem4,
+    },
+    {
+      id: 3,
+      name: "Два фильтрующих сита и сетка",
+      title:
+        "2 сита и сетка необходимы для того,чтобы качественно фильтровать солод.",
+      img: kanstitem3,
+    },
+    {
+      id: 2,
+      name: "Прижимная планка",
+      title: "Обеспечивает надёжную фиксацию бака.",
+      img: kanstitem2,
+    },
+    {
+      id: 1,
+      name: "Крышка",
+      title: "Изолирует процесс пивоварения от внешней среды.",
+      img: kanstitem,
+    },
+ 
+    {
+      id: 6,
+      name: "Кран для слива сусла",
+      title:
+        "Кран на ½ дюйма позволяет быстро и точно сливать сусло в подготовленную ёмкость.",
+      img: kanstitem6,
+    },
+    {
+      id: 7,
+      name: "Блок управления",
+      title: "Необходим для контроля процесса пивоварения.",
+      img: kanstitem7,
+    },
+  ];
+  let data6 = [
+    {
+      id: 6,
+      name: "Кран для слива сусла",
+      title:
+        "Кран на ½ дюйма позволяет быстро и точно сливать сусло в подготовленную ёмкость.",
+      img: kanstitem6,
+    },
+    {
+      id: 5,
+      name: "Сусловарочный котел",
+      title: "Используется для кипячения сусла вместе с хмелем.",
+      img: kanstitem5,
+    },
+    {
+      id: 4,
+      name: "Заторный бак",
+      title: "Необходим для затирания солода.",
+      img: kanstitem4,
+    },
+    {
+      id: 3,
+      name: "Два фильтрующих сита и сетка",
+      title:
+        "2 сита и сетка необходимы для того,чтобы качественно фильтровать солод.",
+      img: kanstitem3,
+    },
+    {
+      id: 2,
+      name: "Прижимная планка",
+      title: "Обеспечивает надёжную фиксацию бака.",
+      img: kanstitem2,
+    },
+    {
+      id: 1,
+      name: "Крышка",
+      title: "Изолирует процесс пивоварения от внешней среды.",
+      img: kanstitem,
+    },
+    {
+      id: 7,
+      name: "Блок управления",
+      title: "Необходим для контроля процесса пивоварения.",
+      img: kanstitem7,
+    },
+  ];
+  let data7 = [
+    {
+      id: 7,
+      name: "Блок управления",
+      title: "Необходим для контроля процесса пивоварения.",
+      img: kanstitem7,
+    },
+    {
+      id: 6,
+      name: "Кран для слива сусла",
+      title:
+        "Кран на ½ дюйма позволяет быстро и точно сливать сусло в подготовленную ёмкость.",
+      img: kanstitem6,
+    },
+    {
+      id: 5,
+      name: "Сусловарочный котел",
+      title: "Используется для кипячения сусла вместе с хмелем.",
+      img: kanstitem5,
+    },
+    {
+      id: 4,
+      name: "Заторный бак",
+      title: "Необходим для затирания солода.",
+      img: kanstitem4,
+    },
+    {
+      id: 3,
+      name: "Два фильтрующих сита и сетка",
+      title:
+        "2 сита и сетка необходимы для того,чтобы качественно фильтровать солод.",
+      img: kanstitem3,
+    },
+    {
+      id: 2,
+      name: "Прижимная планка",
+      title: "Обеспечивает надёжную фиксацию бака.",
+      img: kanstitem2,
+    },
+    {
+      id: 1,
+      name: "Крышка",
+      title: "Изолирует процесс пивоварения от внешней среды.",
+      img: kanstitem,
+    },
+    
+  ];
 
   
  
@@ -578,31 +859,130 @@ const Kanstruktor = () => {
               <div className="kans-next">
                 <img src={next} alt="" />
               </div>
-              {/* {  
-            
+              {  
+              numactive === 1 &&  
               data.map((item, index) => (
                 <SwiperSlide key={index}>
                   <div className="kansturuktor-catusel__item">
                     <p className="kanstruktor-name">{item.name}</p>
                     <h5>{item.title}</h5>
-                    <h6 onClick={() => openModal(index)}>Характеристики</h6>
+                    <h6 onClick={() => openModal(item.id -1)}>Характеристики</h6>
                     <div className="kans-carusel__img1">
                       <img src={item.img} alt="" />
                     </div>
                   </div>
                 </SwiperSlide>
                 ))
-                 } */}
-                <SwiperSlide>
+                 }
+              {  
+              numactive === 2 &&  
+              data2.map((item, index) => (
+                <SwiperSlide key={index}>
                   <div className="kansturuktor-catusel__item">
-                    <p className="kanstruktor-name">Крышка</p>
+                    <p className="kanstruktor-name">{item.name}</p>
+                    <h5>{item.title}</h5>
+                    <h6 onClick={() => openModal(item.id-1)}>Характеристики</h6>
+                    <div className="kans-carusel__img1">
+                      <img src={item.img} alt="" />
+                    </div>
+                  </div>
+                </SwiperSlide>
+                ))
+              }
+              {  
+              numactive === 3 &&  
+              data3.map((item, index) => (
+                <SwiperSlide key={index}>
+                  <div className="kansturuktor-catusel__item">
+                    <p className="kanstruktor-name">{item.name}</p>
+                    <h5>{item.title}</h5>
+                    <h6 onClick={() => openModal(item.id-1)}>Характеристики</h6>
+                    <div className="kans-carusel__img1">
+                      <img src={item.img} alt="" />
+                    </div>
+                  </div>
+                </SwiperSlide>
+                ))
+              }
+              {  
+              numactive === 4 &&  
+              data4.map((item, index) => (
+                <SwiperSlide key={index}>
+                  <div className="kansturuktor-catusel__item">
+                    <p className="kanstruktor-name">{item.name}</p>
+                    <h5>{item.title}</h5>
+                    <h6 onClick={() => openModal(item.id-1)}>Характеристики</h6>
+                    <div className="kans-carusel__img1">
+                      <img src={item.img} alt="" />
+                    </div>
+                  </div>
+                </SwiperSlide>
+                ))
+              }
+              {  
+              numactive === 5 &&  
+              data5.map((item, index) => (
+                <SwiperSlide key={index}>
+                  <div className="kansturuktor-catusel__item">
+                    <p className="kanstruktor-name">{item.name}</p>
+                    <h5>{item.title}</h5>
+                    <h6 onClick={() => openModal(item.id-1)}>Характеристики</h6>
+                    <div className="kans-carusel__img1">
+                      <img src={item.img} alt="" />
+                    </div>
+                  </div>
+                </SwiperSlide>
+                ))
+              }
+              {  
+              numactive === 6 &&  
+              data6.map((item, index) => (
+                <SwiperSlide key={index}>
+                  <div className="kansturuktor-catusel__item">
+                    <p className="kanstruktor-name">{item.name}</p>
+                    <h5>{item.title}</h5>
+                    <h6 onClick={() => openModal(item.id-1)}>Характеристики</h6>
+                    <div className="kans-carusel__img1">
+                      <img src={item.img} alt="" />
+                    </div>
+                  </div>
+                </SwiperSlide>
+                ))
+              }
+              {  
+              numactive === 7 &&  
+              data7.map((item, index) => (
+                <SwiperSlide key={index}>
+                  <div className="kansturuktor-catusel__item">
+                    <p className="kanstruktor-name">{item.name}</p>
+                    <h5>{item.title}</h5>
+                    <h6 onClick={() => openModal(item.id-1)}>Характеристики</h6>
+                    <div className="kans-carusel__img1">
+                      <img src={item.img} alt="" />
+                    </div>
+                  </div>
+                </SwiperSlide>
+                ))
+              }
+
+                {/* <SwiperSlide>
+                  <div className="kansturuktor-catusel__item">
+                    <p className="kanstruktor-name">
+                       {num === 1 && ' Крышка' }  
+                       {num === 2 && 'Прижимная планка'}
+                       {num === 3 && 'Два фильтрующих сита и сетка'}
+                       {num === 4 && 'Заторный бак'}
+                       {num === 5 && 'Сусловарочный котел'}
+                       {num === 6 && 'Кран для слива сусла'}
+                       {num === 7 && 'Блок управления'}
+                    </p>
                     <h5>Изолирует процесс пивоварения от внешней среды.</h5>
                     <h6 onClick={() => openModal(0)}>Характеристики</h6>
                     <div className="kans-carusel__img1">
                       <img src={kanstitem} alt="" />
                     </div>
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
           </div>
         </div>
