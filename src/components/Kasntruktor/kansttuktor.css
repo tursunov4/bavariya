@@ -273,7 +273,7 @@
 .swiper-button-prev{
   width: 40px !important;
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1498px) {
   .kansturuktor__wrapper {
     flex-direction: column-reverse;
     align-items: center;

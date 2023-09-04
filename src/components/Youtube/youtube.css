@@ -3,7 +3,7 @@
   background-image: url("../../assets/Images/png/Youtube/Group-1171275222.webp");
   background-repeat: no-repeat;
   background-position: center;
-  background-repeat: cover;
+  background-size: cover;
 }
 .youtube-section__wrapper {
   width: 100%;
