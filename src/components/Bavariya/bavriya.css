@@ -254,7 +254,7 @@
     margin: 0 auto;
     width: 200px;
     height: 60px;
-    font-size: 25px;
+    font-size: 22px;
   }
   .bavariya-price__new {
     font-size: 25px;   
@@ -318,9 +318,31 @@
   .bavariya__product-text {
     margin-bottom: 10px;
   }
-  .bavariya__product-text > p {
+  .bav-dn{
     display: none;
   }
+  .bavariya__product-text > p {
+    text-align: center !important;
+    margin-bottom: 5px;
+    color: #323232;
+    text-align: start;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 131.818% */
+    opacity: 0.8;
+  }
+  .bavariya__product-text > p > span {
+    opacity: 1;
+    color: #323232;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+ 
   .bavariya__product-text > h5 {
     display: block;
     color: rgba(50, 50, 50, 0.8);

@@ -14,6 +14,7 @@
   box-shadow: 0px 4px 14px 0px rgba(111, 111, 111, 0.15);
 }
 .padarka-section__wrapper > h2 {
+  padding: 0 25px;
   color: #323232;
   text-align: center;
   font-family: Gilroy;
@@ -559,7 +560,9 @@ padding: 2px;
   }
 }
 @media only screen and (max-width: 749px) {
-
+  .padarka-section__wrapper {
+    padding: 50px 0 0;
+}
   .paraka-list1 {
     width: 90%;
     background-size: 90%;
@@ -690,6 +693,12 @@ padding: 2px;
   }
 }
 @media only screen and (max-width: 662px) {
+  .paraka-list1{
+    height: 270px;
+  }
+  .padarka-list2{
+    height: 270px;
+  }
   .padarka-section__wrapper > h2 {
     font-size: 30px;
     line-height: 30px;
@@ -872,6 +881,9 @@ padding: 2px;
   }
 }
 @media only screen and (max-width: 420px) {
+  .padarka-section__wrapper {
+    padding: 30px 0 0;
+}
   .padarka-section__wrapper > h2 {
     font-size: 22px;
     line-height: 29px; /* 131.818% */
@@ -942,12 +954,14 @@ padding: 2px;
 }
 @media only screen and (max-width: 340px) {
   .paraka-list1 {
-    width: 80%;
-    background-size: 80%;
+    width: 95%;
+    background-size: 100%;
+    height: 230px;
   }
   .padarka-list2 {
-    width: 80%;
-    background-size: 80%;
+    width: 95%;
+    background-size: 100%;
+    height: 230px;
   }
   .litraj__wife-button {
     display: flex;

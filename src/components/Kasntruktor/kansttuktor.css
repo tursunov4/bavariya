@@ -238,8 +238,8 @@
 }
 .info-text__wrapper {
   display: flex;
-  width: 218px;
-  justify-content: space-around;
+  width: 213px;
+  justify-content: space-between;
 }
 
 .kans-modal__info-text {
@@ -323,6 +323,12 @@
   }
 }
 @media only screen and (max-width: 750px) {
+  .info-text__wrapper {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+  }
+  
   .kansturuktor-catusel__item {
     padding: 20px;
     width: 340px;
@@ -360,7 +366,7 @@
    
   }
   .kans-modal__info-text p {
-    font-size: 15px;
+    font-size: 10px;
     line-height: 18px; /* 170% */
   }
   .kans-modal__litrs > span {

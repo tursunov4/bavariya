@@ -11,29 +11,9 @@ import wpro3 from '../../assets/Images/png/Bavariya/wpro3.webp'
 
 const Bavariya = () => {
     const [wife , serWife] = useState(false)
-    const wife2 = [
-        {img: wife ? wpro :  product1  ,
-        litr:'10 литров',
-        litr2:'30 литров',
-        ves :'13,7 кг',
-        vife:wife ?'да' : 'нет',
-        motor :'1,5 кВт'
-        },
-        {img: wife ? wpro2 :  product2  ,
-         litr:'30 литров',
-         litr2:'50 литров',
-         ves :'16,3 кг',
-         vife:wife ?'да' : 'нет',
-         motor :'2,8 кВт'
-        },
-        {img: wife ? wpro3 :  product3  ,
-        litr:'50 литров',
-        litr2:'70 литров',
-        ves :'25,5 кг',
-        vife:wife ?'да' : 'нет',
-        motor :'3,2 кВт'
-        }
-    ]
+    const [harak , setHarak] = useState(false)
+    const [harak2 , setHarak2] = useState(false)
+    const [harak3 , setHarak3] = useState(false)
   return (
     <>
       <section className="bavariya-section">
@@ -68,29 +48,31 @@ const Bavariya = () => {
             </button>
           </div>
           <ul className="bavariya-section__product">
-            {wife2.map((item, index) => (
-              <li key={index}>
+       
+              <li >
                 <div className="bavariya-seciton__product-image">
-                  <img src={item.img} alt="" />
+                  <img src={ wife ? wpro :  product1 } alt="" />
                   <div className="bavariya-section__product-text">
-                    <span>{item.litr2}</span>
+                    <span>30 литров</span>
                   </div>
                 </div>
                 <div className="bavariya-section__product-about">
                   <div className="bavariya__product-text">
-                    <h5>Характеристики</h5>
-                    <p>
-                      Выход сусла за цикл:<span>{item.litr}</span>
+                  { harak3 ? '' :  <h5 onClick={()=>setHarak3(true)}>Характеристики</h5>}
+                    <p className={harak3 ? "" : 'bav-dn'}>
+                      Выход сусла за цикл:<span>10 литров</span>
                     </p>
-                    <p>
-                      Потребляемая мощность: <span>{item.motor}</span>
+                    <p className={harak3 ? "" : 'bav-dn'} >
+                      Потребляемая мощность: <span>1,5 кВт</span>
                     </p>
-                    <p>
-                      Вес: <span>{item.ves}</span>
+                    <p className={harak3 ? "" : 'bav-dn'} >
+                      Вес: <span>13,7 кг</span>
                     </p>
-                    <p>
-                      Работа через WiFi: <span> {item.vife}</span>
+                    <p className={harak3 ? "" : 'bav-dn'} >
+                      Работа через WiFi: <span> {wife ?'да' : 'нет'}</span>
                     </p>
+                    { harak3 ? <h5 onClick={()=>setHarak3(false)}>Скрыть</h5>: ''  }
+
                   </div>
                    <div>
                    <div className="bavariya-price">
@@ -101,7 +83,73 @@ const Bavariya = () => {
                    </div>
                 </div>
               </li>
-            ))}
+              <li >
+                <div className="bavariya-seciton__product-image">
+                  <img src={ wife ? wpro2 :  product2 } alt="" />
+                  <div className="bavariya-section__product-text">
+                    <span>50 литров</span>
+                  </div>
+                </div>
+                <div className="bavariya-section__product-about">
+                  <div className="bavariya__product-text">
+                  { harak2 ? '' :  <h5 onClick={()=>setHarak2(true)}>Характеристики</h5>}
+                    <p className={harak2 ? "" : 'bav-dn'} >
+                      Выход сусла за цикл:<span>30 литров</span>
+                    </p>
+                    <p  className={harak2 ? "" : 'bav-dn'} >
+                      Потребляемая мощность: <span>2,8 кВт</span>
+                    </p>
+                    <p  className={harak2 ? "" : 'bav-dn'} >
+                      Вес: <span>16,3 кг</span>
+                    </p>
+                    <p  className={harak2 ? "" : 'bav-dn'} >
+                      Работа через WiFi: <span> {wife ?'да' : 'нет'}</span>
+                    </p>
+                    { harak2 ? <h5 onClick={()=>setHarak2(false)}>Скрыть</h5>: ''  }
+                  </div>
+                   <div>
+                   <div className="bavariya-price">
+                    <span className="bavariya-price__new">44 990 ₽</span>
+                    <span className="bavariya-price__old">64 290 ₽</span>
+                  </div>
+                  <button className="all__btn--hover">Заказать</button>
+                   </div>
+                </div>
+              </li>
+              <li >
+                <div className="bavariya-seciton__product-image">
+                  <img src={ wife ? wpro3 :  product3 } alt="" />
+                  <div className="bavariya-section__product-text">
+                    <span>70 литров</span>
+                  </div>
+                </div>
+                <div className="bavariya-section__product-about">
+                  <div className="bavariya__product-text">
+                    { harak ? '' :  <h5 onClick={()=>setHarak(true)}>Характеристики</h5>}
+                    <p className={harak ? "" : 'bav-dn'}>
+                      Выход сусла за цикл:<span>50 литров</span>
+                    </p>
+                    <p className={harak ? "" : 'bav-dn'} >
+                      Потребляемая мощность: <span>3,2 кВт</span>
+                    </p>
+                    <p className={harak ? "" : 'bav-dn'} >
+                      Вес: <span>25,5 кг</span>
+                    </p>
+                    <p className={harak ? "" : 'bav-dn'} >
+                      Работа через WiFi: <span> {wife ?'да' : 'нет'}</span>
+                    </p>
+                    { harak ? <h5 onClick={()=>setHarak(false)}>Скрыть</h5>: ''  }
+                  </div>
+                   <div>
+                   <div className="bavariya-price">
+                    <span className="bavariya-price__new">44 990 ₽</span>
+                    <span className="bavariya-price__old">64 290 ₽</span>
+                  </div>
+                  <button className="all__btn--hover">Заказать</button>
+                   </div>
+                </div>
+              </li>
+         
           </ul>
         </div>
       </section>
