@@ -2,7 +2,7 @@
   background-image: url("../../assets/Images/png/order_background.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 234px 0;
+  padding: 100px 50px;
 }
 
 .order_wrapper {
@@ -85,7 +85,7 @@
 
 
   .order {
-    padding: 170px 0;
+    padding: 170px 50px;
   }
   
   .order_wrapper {
@@ -129,6 +129,11 @@
 
   .order_items_btn button {
     font-size: 28px;
+  }
+}
+@media only screen and (max-width:1100px){
+  .order {
+    padding: 120px 50px;
   }
 }
 @media only screen and (max-width:1050px){
@@ -180,7 +185,18 @@
     padding: 0;
   }
 }
-
+@media only screen and (max-width:790px){
+  
+  .order {
+    padding: 50px 20px;
+  }
+}
+@media only screen and (max-width:490px){
+  
+  .order {
+    padding: 50px 0px;
+  }
+}
 @media only screen and (max-width: 425px) {
   .order{
     padding: 70px 0;

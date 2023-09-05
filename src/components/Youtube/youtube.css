@@ -1,5 +1,5 @@
 .youtube-section {
-  padding: 100px 0;
+  padding: 100px 50px;
   background-image: url("../../assets/Images/png/Youtube/Group-1171275222.webp");
   background-repeat: no-repeat;
   background-position: center;
@@ -105,13 +105,14 @@
   height: 10px !important;
   background-color: #fff !important;
 }
-
+@media only screen and (max-width:1100px){
+  .youtube-section {
+    padding: 70px 50px;
+  }
+}
 
 @media only screen and (max-width: 1040px) {
-  .youtube-section {
-    padding: 70px 30px;
-    background-color: #000;
-  }
+  
   .youtube-section__wrapper > h2 {
     font-size: 40px;
     line-height: 40px; /* 113.462% */
@@ -119,6 +120,11 @@
   .youtube-section__wrapper > h3 {
     font-size: 25px;
     line-height: 29px; /* 121.875% */
+  }
+}
+@media only screen and (max-width:790px){
+  .youtube-section {
+    padding: 50px 20px;
   }
 }
 @media only screen and (max-width: 505px) {
@@ -169,5 +175,10 @@
     height: 30px;
     right: 6px;
     top: 44%;
+  }
+}
+@media only screen and (max-width:490px){
+  .youtube-section{
+    padding: 50px 0;
   }
 }

@@ -1,5 +1,5 @@
 .otziv {
-  padding: 100px 0;
+  padding: 100px 50px;
   background-color: #ececec;
 }
 .otziv h2 {
@@ -186,15 +186,18 @@
   background: #ffb800;
   cursor: pointer;
 }
+@media only screen and (max-width:1100px){
+  .otziv{
+    padding: 70px 50px;
+  }
+}
 @media only screen and (max-width: 1072px) {
   .otziv h2 {
     font-size: 30px;
     line-height: 35px; /* 113.462% */
     margin-bottom: 50px;
   }
-  .otziv {
-    padding: 70px 0;
-  }
+ 
   .otviz-wrapper__contact-name > h3 {
     font-size: 22px;
     line-height: 25px;
@@ -271,10 +274,13 @@
     height: 432px;
   }
 }
-@media only screen and (max-width: 600px) {
-  .otziv {
-    padding: 50px 0;
+@media only screen and (max-width:790px){
+  .otziv{
+    padding: 50px 20px;
   }
+}
+@media only screen and (max-width: 600px) {
+ 
   .otziv h2 {
     font-size: 22px;
     line-height: 29px;
@@ -328,6 +334,11 @@
     top: 48%;
     left: 10px;
     z-index: 3;
+  }
+}
+@media only screen and (max-width:490px){
+  .otziv{
+    padding: 50px 0;
   }
 }
 @media only screen and (max-width: 440px) {

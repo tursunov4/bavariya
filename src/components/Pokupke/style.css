@@ -1,10 +1,8 @@
 .pokupke {
   background: #ececec;
+  padding: 100px 50px;
 }
 
-.pokupka__wrapper {
-  padding: 100px 0;
-}
 
 .pokupka__title {
   color: #323232;
@@ -38,7 +36,11 @@
     font-size: 24px;
   }
 }
-
+@media only screen and (max-width:1100px){
+  .pokupke{
+    padding: 70px 50px;
+  }
+}
 @media only screen and (max-width: 866px) {
   .pokupka__wrapper {
     padding: 30px 20px;
@@ -50,6 +52,11 @@
 
   .pokupka__paragraph {
     font-size: 24px;
+  }
+}
+@media only screen and (max-width:790px){
+  .pokupke{
+    padding: 50px 20px;
   }
 }
 
@@ -64,5 +71,10 @@
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width:490px){
+  .pokupke{
+    padding: 50px 0px;
   }
 }

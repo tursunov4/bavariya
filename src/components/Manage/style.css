@@ -1,7 +1,7 @@
 
 .manage{
   background: #ECECEC;
-  padding: 100px 0;
+  padding: 100px 50px;
 }
 .mange__wrapper > h2{
   color: #323232;
@@ -281,9 +281,7 @@ border-radius: 4px;
 }
 @media only screen and (max-width:1345px){
   
-.manage{
-  padding: 70px 0;
-}
+
   .mange__wrapper > h2{
   font-size: 35px;
   line-height: 39px; /* 113.462% */
@@ -314,7 +312,7 @@ border-radius: 4px;
   height: 358px;
   }
 }
-@media only screen and (max-width:1270px){
+@media only screen and (max-width:1300px){
   .mange__tablebtn{
     display: block; 
     width: 220px;
@@ -323,7 +321,7 @@ border-radius: 4px;
    padding: 10px;
   }
 }
-@media only screen and (max-width:1090px){
+@media only screen and (max-width:1190px){
   .mange__cost{
     font-size: 30px;
     line-height: 37px;
@@ -334,6 +332,11 @@ border-radius: 4px;
     width: 200px;
     height: 70px;
     }
+}
+@media only screen and (max-width:1100px){
+  .manage{
+    padding: 70px 50px;
+  }
 }
 @media only screen and (max-width:1132px){
   .mange__wrapper-text td{
@@ -468,7 +471,11 @@ border-radius: 4px;
   }
 
 }
-
+@media only screen and (max-width:790px){
+  .manage{
+    padding: 50px 20px;
+  }
+}
 @media only screen and (max-width:550px){
   .manage{
     padding: 40px 0;
@@ -492,6 +499,11 @@ border-radius: 4px;
       font-weight: 500;
       line-height: 17px;
       }
+}
+@media only screen and (max-width:490px){
+  .manage{
+    padding: 50px 0;
+  }
 }
 @media only screen and (max-width:340px){
   .mange__wrapper-text td{

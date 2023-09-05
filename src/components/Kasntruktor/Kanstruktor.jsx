@@ -965,24 +965,7 @@ const Kanstruktor = () => {
                 ))
               }
 
-                {/* <SwiperSlide>
-                  <div className="kansturuktor-catusel__item">
-                    <p className="kanstruktor-name">
-                       {num === 1 && ' Крышка' }  
-                       {num === 2 && 'Прижимная планка'}
-                       {num === 3 && 'Два фильтрующих сита и сетка'}
-                       {num === 4 && 'Заторный бак'}
-                       {num === 5 && 'Сусловарочный котел'}
-                       {num === 6 && 'Кран для слива сусла'}
-                       {num === 7 && 'Блок управления'}
-                    </p>
-                    <h5>Изолирует процесс пивоварения от внешней среды.</h5>
-                    <h6 onClick={() => openModal(0)}>Характеристики</h6>
-                    <div className="kans-carusel__img1">
-                      <img src={kanstitem} alt="" />
-                    </div>
-                  </div>
-                </SwiperSlide> */}
+               
             </Swiper>
           </div>
         </div>

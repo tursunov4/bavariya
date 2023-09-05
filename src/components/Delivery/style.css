@@ -2,7 +2,7 @@
   background-image: url("../../assets/Images/png/delivery_background.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 250px;
+  padding: 100px 50px;
 }
 
 .del__wrapper {
@@ -153,9 +153,7 @@
 }
 
 @media only screen and (max-width: 1480px) {
-  .delivery {
-    padding: 100px 200px;
-  }
+ 
 
   .delivery__left--card {
     padding: 40px 20px;
@@ -199,9 +197,7 @@
 }
 
 @media only screen and (max-width: 1350px) {
-  .delivery {
-    padding: 50px 100px;
-  }
+
   .del__wrapper {
     flex-direction: column;
   }
@@ -247,7 +243,16 @@
     text-transform: uppercase;
   }
 }
-
+@media only screen and (max-width:1100px){
+  .delivery{
+    padding: 70px 50px;
+  }
+}
+@media only screen and (max-width:790px){
+  .delivery{
+    padding: 50px 20px;
+  }
+}
 @media only screen and (max-width: 764px) {
   .delivery__left--card {
     padding: 20px 30px;
@@ -297,9 +302,7 @@
 }
 
 @media only screen and (max-width: 692px) {
-  .delivery {
-    padding: 30px 20px;
-  }
+
   .delivery__right--card div:nth-child(1) > h2 {
     font-size: 27px;
     line-height: 38px;
@@ -334,7 +337,11 @@
     font-family: Gilroy-Bold;
   }
 }
-
+@media only screen and (max-width:490px){
+  .delivery{
+    padding: 50px 0;
+  }
+}
 @media only screen and (max-width: 390px) {
   .delivery__left--card div {
     justify-content: start;

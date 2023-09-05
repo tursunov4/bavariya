@@ -46,10 +46,10 @@ const YoutubeCarusel = () => {
             300: {
               slidesPerView: 1,
             },
-            1010: {
+            1050: {
               slidesPerView: 2,
             },
-            1388: {
+            1516: {
               slidesPerView: 3,
             },
           }}

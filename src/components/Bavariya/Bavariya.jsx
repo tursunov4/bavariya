@@ -10,23 +10,23 @@ import wpro3 from '../../assets/Images/png/Bavariya/wpro3.webp'
 
 
 const Bavariya = () => {
-    const [wife , serWife] = useState(true)
+    const [wife , serWife] = useState(false)
     const wife2 = [
-        {img: wife ? product1 : wpro  ,
+        {img: wife ? wpro :  product1  ,
         litr:'10 литров',
         litr2:'30 литров',
         ves :'13,7 кг',
         vife:wife ?'да' : 'нет',
         motor :'1,5 кВт'
         },
-        {img:wife ? product2 : wpro2  ,
+        {img: wife ? wpro2 :  product2  ,
          litr:'30 литров',
          litr2:'50 литров',
          ves :'16,3 кг',
          vife:wife ?'да' : 'нет',
          motor :'2,8 кВт'
         },
-        {img:wife ? product3 : wpro3  ,
+        {img: wife ? wpro3 :  product3  ,
         litr:'50 литров',
         litr2:'70 литров',
         ves :'25,5 кг',
@@ -53,15 +53,15 @@ const Bavariya = () => {
               onClick={() => serWife(false)}
               className={
                 wife ? 
-                  "bavariya-section__quiz-button" 
-                  : 'bavariya-section__quiz-avtive'
+                  "bavariya-section__quiz-avtive" 
+                  : 'bavariya-section__quiz-button'
                 }
             >
               Без WiFi
             </button>
             <button
               onClick={() => serWife(true)}
-              className={ wife ?"bavariya-section__quiz-avtive" :    "bavariya-section__quiz-button"   }
+              className={ wife ?"bavariya-section__quiz-button" :    " bavariya-section__quiz-avtive"   }
             >
               {" "}
               С WiFi

@@ -1,5 +1,5 @@
 .kansturuktor-section {
-  padding: 100px;
+  padding: 100px 50px;
   background: linear-gradient(0deg, #DFD1BC 0%, #DFD1BC 100%), url("../../assets/Images/png/Kans/kanstruktorbag.webp"), lightgray -607.4px -0.783px / 154% 179.413% no-repeat;
   background-blend-mode: color, normal;
 }
@@ -273,18 +273,24 @@
 .swiper-button-prev{
   width: 40px !important;
 }
-@media only screen and (max-width: 1498px) {
+@media only screen and (max-width: 1380px) {
   .kansturuktor__wrapper {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     gap: 50px;
   }
+  .kansturukor__img-wrapper{
+    display: none;
+  }
+}
+@media only screen and (max-width:1100px){
+  .kansturuktor-section{
+    padding: 70px 50px;
+  }
 }
 @media only screen and (max-width: 930px) {
-  .kansturuktor-section {
-    padding: 70px 0;
-  }
+
   .kansturuktor-section h2 {
     font-size: 35px;
     line-height: 40px;
@@ -309,6 +315,11 @@
   .kansturuktor-section h3 {
     font-size: 22px;
     line-height: 22px; /* 121.875% */
+  }
+}
+@media only screen and (max-width:790px){
+  .kansturuktor-section{
+    padding: 50px 20px;
   }
 }
 @media only screen and (max-width: 750px) {
@@ -348,9 +359,6 @@
     line-height: 29px;
    
   }
-  .kans-modal__info-text {
-
-  }
   .kans-modal__info-text p {
     font-size: 15px;
     line-height: 18px; /* 170% */
@@ -369,6 +377,11 @@
   .kans-modal__img > img {
     width: 240px;
     height: 222.609px;
+  }
+}
+@media only screen and (max-width:490px){
+  .kansturuktor-section{
+    padding: 50px 0;
   }
 }
 @media only screen and (max-width: 460px) {

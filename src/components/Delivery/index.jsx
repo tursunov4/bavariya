@@ -1,4 +1,3 @@
-import React from "react";
 import dpd from "../../assets/Images/svg/del_leftcard 1.svg";
 import trian from "../../assets/Images/svg/del_leftcard 2.svg";
 import mail from "../../assets/Images/svg/del_leftcard 3.svg";
