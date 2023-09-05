@@ -82,23 +82,17 @@
   overflow: hidden;
   position: relative;
 }
-.youtubevideo-wrapper__video > img {
+.yicon {
   cursor: pointer;
   position: absolute;
   top: 44%;
   left: 40%;
 }
 .youtubevideo-wrapper__video:nth-child(1) {
-  background-image: url("../../../assets/Images/png/Youtube/youtube1.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  position: relative;
 }
 .youtubevideo-wrapper__video:nth-child(2) {
-  background-image: url("../../../assets/Images/png/Youtube/youtube2.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  position: relative;
 }
 .youtubevideo__mashina-text {
   display: none;
@@ -112,6 +106,13 @@
   line-height: 20px; /* 153.846% */
   text-decoration-line: underline;
   cursor: pointer;
+}
+.yvideo{
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
 }
 @media only screen and (max-width: 1400px) {
 }
@@ -149,16 +150,16 @@
 }
 @media only screen and (max-width: 1000px) {
   .youtubevide-wrapper__videos {
-    height: 400px;
+    height: 350px;
   }
 }
 @media only screen and (max-width: 750px) {
   .youtubevide-wrapper__videos {
-    height: 350px;
+    height: 300px;
   }
 }
 @media only screen and (max-width:730px){
-  .youtubevideo-wrapper__video > img {
+  .yicon {
     width: 50px;
     height: 35px;
     left: 43%;
@@ -181,22 +182,11 @@
     gap: 20px;
     margin-bottom: 20px;
   }
-  .youtubevideo-wrapper__video:nth-child(2) {
-    background-image: url(/src/assets/Images/png/Youtube/youtube2.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-  .youtubevideo-wrapper__video:nth-child(1) {
-    background-image: url(/src/assets/Images/png/Youtube/youtube2.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
+ 
   .youtubevideo-wrapper__video {
-    width: 100%;
+    width: 280px;
+    height: 246.829px;
+    border-radius: 0;
   }
   .youtube-video__text-list {
     display: none;
@@ -221,11 +211,7 @@
     font-size: 22px;
     line-height: 29px; /* 131.818% */
   }
-  .youtubevideo-wrapper__video {
-    width: 90%;
-    height: 246.829px;
-    flex-shrink: 0;
-  }
+ 
   .youtubevideo__mashina {
     width: 90%;
     height: 300px;

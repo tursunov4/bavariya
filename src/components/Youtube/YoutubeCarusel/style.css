@@ -29,7 +29,32 @@ line-height: 39px; /* 121.875% */
     height: 200px;
 }
 
-
+@media only screen and (max-width:500px){
+    .youtubecarusel > h4{
+        opacity: 0.8;
+        margin-bottom: 30px;
+       color: #FFF;
+       text-align: center;
+       font-family: Gilroy;
+       font-size: 22px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 25px; /* 121.875% */
+       }
+}
+@media only screen and (max-width:400px){
+    .youtubecarusel > h4{
+        margin-bottom: 20px;
+        opacity: 0.8;
+        color: #FFF;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 121.875% */
+       }
+}
   /* @media only screen and (max-width:1471px){
       .zakajite-section .swiper-slide{
         width: 344px !important;

@@ -3,6 +3,8 @@ import "./style.css"
 import Youtubetext from '../Youtubetext/Youtubetext'
 import Modal from '../../Modal/Modal'
 import video from '../../../assets/GIf/stages-item1.mp4'
+import yvideo2 from '../../../assets/Images/png/Youtube/youtube2.webp'
+import yvideo1 from '../../../assets/Images/png/Youtube/youtube1.webp'
 import youtubeimg from '../../../assets/Images/svg/youtube.svg'
 const YoutubeVIdeo = () => {
    const [modal , setModal] = useState(false)
@@ -39,10 +41,12 @@ const YoutubeVIdeo = () => {
      </div>
      <div className="youtubevide-wrapper__videos">
       <div className='youtubevideo-wrapper__video' >
-        <img src={youtubeimg} alt="" />
+        <img className='yvideo' src={yvideo1} alt="" />
+        <img className='yicon' src={youtubeimg} alt="" />
       </div>
       <div className='youtubevideo-wrapper__video'>
-        <img src={youtubeimg} alt="" />
+        <img className='yvideo' src={yvideo2} alt="" />
+        <img className='yicon' src={youtubeimg} alt="" />
       </div>
      </div>
      
