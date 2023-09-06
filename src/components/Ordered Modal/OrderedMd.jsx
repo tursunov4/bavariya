@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Exit from "../../../assets/Images/svg/exit.svg";
+import Exit from "../../assets/Images/svg/exit.svg";
 const OrderedMd = ({ modal, setModal, children }) => {
   window.onclick = function (event) {
     if (event.target.id === "ordered__modal") {
@@ -9,8 +9,8 @@ const OrderedMd = ({ modal, setModal, children }) => {
   };
   if (modal) {
     return (
-      <div id="ordered__modal" class="ordered__modal">
-        <div class="ordered__modal--content">
+      <div id="ordered__modal" className="ordered__modal">
+        <div className="ordered__modal--content">
           <img
             onClick={() => setModal(false)}
             className="modal-exit"

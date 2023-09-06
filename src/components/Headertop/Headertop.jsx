@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import './style.css'
-import Exit from '../../../assets/Images/svg/exit.svg'
-import logo from "../../../assets/Images/svg/logoheader.svg";
-import Image from "../../../assets/Images/png/Header  Top/70 литров 1.png";
-import mastercard from "../../../assets/Images/svg/mastercard_large.svg";
-import mir from "../../../assets/Images/svg/mir_large.svg";
-import visa from "../../../assets/Images/svg/visa_large.png";
-import rasskochka from "../../../assets/Images/svg/rasskochka.svg";
-import rasskochka1 from "../../../assets/Images/svg/rassrochka_phone.svg";
+import Exit from '../../assets/Images/svg/exit.svg'
+import logo from "../../assets/Images/svg/logoheader.svg";
+import Image from "../../assets/Images/png/Header  Top/70 литров 1.png";
+import mastercard from "../../assets/Images/svg/mastercard_large.svg";
+import mir from "../../assets/Images/svg/mir_large.svg";
+import visa from "../../assets/Images/svg/visa_large.png";
+import rasskochka from "../../assets/Images/svg/rasskochka.svg";
+import rasskochka1 from "../../assets/Images/svg/rassrochka_phone.svg";
 const Headertop = ({setModal, modal}) => {
   const [click, setClick] = useState(true);
   window.onclick = function (event) {

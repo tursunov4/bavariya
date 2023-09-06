@@ -5,10 +5,11 @@ import b2 from "../../../assets/Images/png/Modal Image/barrel2.webp";
 import b3 from "../../../assets/Images/png/Modal Image/barrel3.webp";
 import b4 from "../../../assets/Images/png/Modal Image/barrel4.webp";
 import b5 from "../../../assets/Images/png/Modal Image/bareel5.webp";
-
+import Mycheckbox from "../../Mycheckbox/Mycheckbox";
 import "./style.css";
 const Ordered = () => {
   const [click, setClick] = useState(true);
+  const [check ,setCheck] = useState(false)
   return (
     <>
       <div className="zakazat">
@@ -16,11 +17,17 @@ const Ordered = () => {
           <div className="zakazat__left">
             <div className="zakazat__left--wrapper">
               <div className="zakazat__left--card">
-                <button onClick={() => setClick(!click)}>
-                  <p
-                    style={click ? { display: "none" } : { display: "block" }}
-                  ></p>
-                </button>
+                 <Mycheckbox setCheck={setCheck} check={check}/>
+                <img src={rasm} alt="Image" />
+                <h4>Набор для темного пива</h4>
+                <div className="zakazat__left--card-sale">
+                  <span className="old__price">7 990 ₽</span>
+                  <span className="new__price">7 990 ₽</span>
+                </div>
+              </div>
+
+              <div className="zakazat__left--card">
+              <Mycheckbox setCheck={setCheck} check={check}/>
 
                 <img src={rasm} alt="Image" />
                 <h4>Набор для темного пива</h4>
@@ -31,11 +38,7 @@ const Ordered = () => {
               </div>
 
               <div className="zakazat__left--card">
-                <button onClick={() => setClick(!click)}>
-                  <p
-                    style={click ? { display: "none" } : { display: "block" }}
-                  ></p>
-                </button>
+              <Mycheckbox setCheck={setCheck} check={check}/>
 
                 <img src={rasm} alt="Image" />
                 <h4>Набор для темного пива</h4>
@@ -46,11 +49,7 @@ const Ordered = () => {
               </div>
 
               <div className="zakazat__left--card">
-                <button onClick={() => setClick(!click)}>
-                  <p
-                    style={click ? { display: "none" } : { display: "block" }}
-                  ></p>
-                </button>
+              <Mycheckbox setCheck={setCheck} check={check}/>
 
                 <img src={rasm} alt="Image" />
                 <h4>Набор для темного пива</h4>
@@ -61,11 +60,7 @@ const Ordered = () => {
               </div>
 
               <div className="zakazat__left--card">
-                <button onClick={() => setClick(!click)}>
-                  <p
-                    style={click ? { display: "none" } : { display: "block" }}
-                  ></p>
-                </button>
+              <Mycheckbox setCheck={setCheck} check={check}/>
 
                 <img src={rasm} alt="Image" />
                 <h4>Набор для темного пива</h4>
@@ -76,12 +71,7 @@ const Ordered = () => {
               </div>
 
               <div className="zakazat__left--card">
-                <button onClick={() => setClick(!click)}>
-                  <p
-                    style={click ? { display: "none" } : { display: "block" }}
-                  ></p>
-                </button>
-
+              <Mycheckbox setCheck={setCheck} check={check}/>
                 <img src={rasm} alt="Image" />
                 <h4>Набор для темного пива</h4>
                 <div className="zakazat__left--card-sale">
@@ -91,12 +81,7 @@ const Ordered = () => {
               </div>
 
               <div className="zakazat__left--card">
-                <button onClick={() => setClick(!click)}>
-                  <p
-                    style={click ? { display: "none" } : { display: "block" }}
-                  ></p>
-                </button>
-
+              <Mycheckbox setCheck={setCheck} check={check}/>
                 <img src={rasm} alt="Image" />
                 <h4>Набор для темного пива</h4>
                 <div className="zakazat__left--card-sale">
@@ -106,26 +91,7 @@ const Ordered = () => {
               </div>
 
               <div className="zakazat__left--card">
-                <button onClick={() => setClick(!click)}>
-                  <p
-                    style={click ? { display: "none" } : { display: "block" }}
-                  ></p>
-                </button>
-
-                <img src={rasm} alt="Image" />
-                <h4>Набор для темного пива</h4>
-                <div className="zakazat__left--card-sale">
-                  <span className="old__price">7 990 ₽</span>
-                  <span className="new__price">7 990 ₽</span>
-                </div>
-              </div>
-
-              <div className="zakazat__left--card">
-                <button onClick={() => setClick(!click)}>
-                  <p
-                    style={click ? { display: "none" } : { display: "block" }}
-                  ></p>
-                </button>
+              <Mycheckbox setCheck={setCheck} check={check}/>
 
                 <img src={rasm} alt="Image" />
                 <h4>Набор для темного пива</h4>
@@ -382,10 +348,10 @@ const Ordered = () => {
             <div className="zakazat__right">
               <h4>Заказ</h4>
 
-              <select>
-                <option value="wifi">30 литров с WiFi</option>
-                <option value="wifi">30 литров с WiFi</option>
-                <option value="wifi">30 литров с WiFi</option>
+              <select >
+                <option selected hidden  value="wifi">30 литров с WiFi</option>
+                <option value="wifi">50 литров с WiFi</option>
+                <option value="wifi">70 литров с WiFi</option>
               </select>
 
               <div className="responsive__paragraph">

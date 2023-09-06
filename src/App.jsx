@@ -15,11 +15,12 @@ import Yandexmap from './components/Yandexmap/Yandexmap'
 import Footer from './components/Footer/index';
 import Khaos from './components/Khaos/index'
 import Zakajite from './components/Zakajite/Zakajite'
+
 function App() {
 
   return (
     <>
- 
+
        <Header />      
       <Hero />
       <Bavariya /> 

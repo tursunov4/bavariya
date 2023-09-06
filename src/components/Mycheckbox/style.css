@@ -1,0 +1,23 @@
+.mycheckbox{
+    display: block !important;
+    width: 20px !important;
+    height: 20px !important;
+    border: 1.5px #323232 solid !important;
+    border-radius: 50%;
+    cursor: pointer;
+ 
+}
+.mychecboxcolor{
+    display: block;
+   height: 18px !important;
+   width: 18px !important;
+   border-radius: 50%;
+   background-color: #FFB800;
+}
+.maycheckwhite{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+}

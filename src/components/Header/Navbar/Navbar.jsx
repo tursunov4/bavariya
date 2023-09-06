@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import './navbar.css'
 import sitelogo from '../../../assets/Images/svg/logoheader.svg'
 import hamburger from '../../../assets/Images/svg/header.hamburger.svg'
 import call from '../../../assets/Images/svg/contact.svg'
 import exit from '../../../assets/Images/svg/exitheader.svg'
-import OrderedMd from '../Ordered Modal/OrderedMd'
+import OrderedMd from '../../Ordered Modal/OrderedMd'
 const Navbar = () => {
   const [sidebar ,setSidebar] = useState(false)
   const [modal ,setModal] = useState(false)

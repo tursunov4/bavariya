@@ -5,7 +5,7 @@ import raspochka from '../../../assets/Images/svg/raspochka.svg'
 import bar from '../../../assets/Images/png/headerbar.webp'
 import bar2 from '../../../assets/Images/png/headerbarmobile.webp'
 import Headermodal from '../Headermodal/Headermodal'
-import Headertop from '../Headertop/Headertop'
+import Headertop from '../../Headertop/Headertop'
 const Headers = () => {
   const [modal, setModal] = useState(false)
   const [modal2,setModal2] = useState(false)
